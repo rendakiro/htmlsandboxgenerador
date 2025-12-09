@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>bosque_campamento de orcos_8989 - Escenario de Rol</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 20px 15px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2530 100%);
+            color: white;
+            padding: 25px 20px;
+            margin: -20px -15px 25px -15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+        
+        .metadata-item {
+            background: rgba(255,255,255,0.1);
+            padding: 5px 12px;
+            border-radius: 15px;
+        }
+        
+        pre {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #333;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        /* Estilos para el contenido dentro del pre */
+        pre .section-header {
+            color: #569cd6;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0 5px 0;
+            font-size: 1.1em;
+        }
+        
+        pre .area-title {
+            color: #4ec9b0;
+            font-weight: bold;
+            display: block;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        
+        pre .connection {
+            color: #9cdcfe;
+        }
+        
+        pre .treasure {
+            color: #ffd700;
+        }
+        
+        pre .danger {
+            color: #f48771;
+        }
+        
+        pre .prop {
+            color: #ce9178;
+        }
+        
+        pre .event {
+            color: #c586c0;
+        }
+        
+        pre .highlight {
+            color: #d7ba7d;
+            font-weight: bold;
+        }
+        
+        pre .comment {
+            color: #6a9955;
+        }
+        
+        pre .string {
+            color: #ce9178;
+        }
+        
+        pre .keyword {
+            color: #569cd6;
+        }
+        
+        pre .number {
+            color: #b5cea8;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .header {
+                padding: 20px 15px;
+                margin: -15px -10px 20px -10px;
+            }
+            
+            .title {
+                font-size: 1.5rem;
+            }
+            
+            pre {
+                padding: 15px;
+                font-size: 13px;
+                margin: 15px -10px;
+                border-radius: 0;
+            }
+            
+            .metadata {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            pre {
+                font-size: 12px;
+                padding: 12px;
+            }
+            
+            .actions {
+                flex-direction: column;
+            }
+            
+            .back-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">bosque_campamento de orcos_8989</h1>
+        <p class="subtitle">📄 Archivo de escenario para juegos de rol</p>
+        <div class="metadata">
+            <span class="metadata-item">📁 TXT Original</span>
+            <span class="metadata-item">📱 Optimizado para móvil</span>
+            <span class="metadata-item">🔄 Convertido automáticamente</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <pre>
+🌳 GENERADOR DE BOSQUES VECTORIAL - CAMPAMENTO DE ORCOS
+=================================================================
+Tipo: Campamento de Orcos
+Características: Empalizas, Hornos de forja, Jaulas de prisioneros, Tótems de guerra
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- ÁREA 01 [C] ---
+📖 Jaulas de prisioneros colgando de árboles. [Ambientación: Viviente] (🔊 Respiración del bosque, 👃 Savia fresca, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 2 (Sendero principal, conexión obvia)
+   → Área 8 (Atajo entre árboles, Bloqueado por zarzas)
+   → Área 3 (Sendero lateral)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Peligrosa (Tronco con pinchos que oscila al ser activado.)
+
+--- ÁREA 02 [C] ---
+📖 Taller de máquinas de asedio primitivas. [Ambientación: Encantado] (🔊 Risas etéreas, 👃 Especias olvidadas, ⚡ Luces danzantes)
+🔗 **Conexiones**:
+   → Área 3 (Sendero principal, conexión obvia)
+   → Área 6 (Túnel de raíces [SECRETO])
+   → Área 10 (Camino de animales, Suelo Resbaladizo)
+🎨 **Atrezo**: Arma rota en una piedra de afilar.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Mortal (Área minada con trampas explosivas primitivas.)
+🔍 **Evento**: Un susurro antiguo revela un secreto del bosque
+
+--- ÁREA 03 [C] ---
+📖 Almacén de armas y armaduras robadas. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Tierra podrida, ⚡ Niebla espesa)
+🔗 **Conexiones**:
+   → Área 4 (Sendero principal, conexión obvia)
+   → Área 1 (Rastro poco definido)
+   → Área 9 (Túnel de raíces [SECRETO])
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Único (Arma ancestral orca, estandarte mágico de batalla)
+⚠️  **Peligro**: Fácil (Trampa de estaca en foso poco profundo.)
+
+--- ÁREA 04 [C] ---
+📖 Cocina comunal con fuegos y espetones. [Ambientación: Corrupto] (🔊 Latidos de corazón, 👃 Pústulas, ⚡ Árboles retorciéndose)
+🔗 **Conexiones**:
+   → Área 5 (Sendero principal, conexión obvia)
+   → Área 7 (Atajo entre árboles, Requiere Trepar)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Tambor de guerra con piel tensada.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Mortal (Área minada con trampas explosivas primitivas.)
+
+--- ÁREA 05 [C] ---
+📖 Puesto de caza con trampas y armas primitivas. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Carroña, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 6 (Sendero principal, conexión obvia)
+   → Área 7 (Rastro poco definido)
+   → Área 1 (Puente natural oculto [SECRETO])
+   → Área 8 (Camino de animales)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Peligrosa (Tronco con pinchos que oscila al ser activado.)
+🔍 **Pista/Misterio**: Diario de un desaparecido con la última página arrancada
+
+--- ÁREA 06 [C] ---
+📖 Corral con bestias de carga y montura. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Moho, ⚡ Niebla espesa)
+🔗 **Conexiones**:
+   → Área 7 (Sendero principal, conexión obvia)
+   → Área 8 (Camino de animales)
+   → Área 9 (Atajo entre árboles, Cruza zona peligrosa)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Tótem decorado con dientes y garras.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Común (Red con pesas que cae desde árboles.)
+
+--- ÁREA 07 [Z] ---
+📖 Cocina comunal con fuegos y espetones. [Ambientación: Corrupto] (🔊 Latidos de corazón, 👃 Sangre seca, ⚡ Suelo que palpita)
+🔗 **Conexiones**:
+   → Área 8 (Sendero principal, conexión obvia)
+   → Área 2 (Camino de animales)
+   → Área 10 (Camino de animales)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Montón de huesos masticados., Barril de cerveza agria medio consumido.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+🔍 **Pista/Misterio**: Camino que solo aparece a la luz de la luna
+
+--- ÁREA 08 [C] ---
+📖 Sendero principal patrullado por orcos. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Moho, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 9 (Sendero principal, conexión obvia)
+   → Área 10 (Camino de animales, Vadeo de arroyo)
+   → Área 3 (Rastro poco definido, Vadeo de arroyo)
+🎨 **Atrezo**: Armadura oxidada con el emblema de un enemigo., Montón de huesos masticados.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 09 [C] ---
+📖 Corral con bestias de carga y montura. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Carroña, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 10 (Sendero principal, conexión obvia)
+   → Área 2 (Camino de animales)
+   → Área 4 (Sendero cubierto por enredaderas [SECRETO])
+🎨 **Atrezo**: Estandarte hecho de pieles cosidas.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Fácil (Trampa de estaca en foso poco profundo.)
+
+--- ÁREA 10 [C] ---
+📖 Área de entrenamiento con blancos de práctica. [Ambientación: Corrupto] (🔊 Gritos ahogados, 👃 Podredumbre arcana, ⚡ Nubes de insectos)
+🔗 **Conexiones**:
+   → Área 8 (Rastro poco definido)
+   → Área 9 (Sendero lateral)
+🎨 **Atrezo**: Estandarte hecho de pieles cosidas.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total áreas: 10
+• Distribución tamaños: Claro pequeño: 2, Claro mediano: 5, Zona arbolada densa: 1, Claro grande: 2
+• Áreas con tesoro: 9
+• Áreas con peligro: 7
+• Conexiones secretas: 4
+  Área 2 → 6 (Túnel de raíces [SECRETO])
+  Área 3 → 9 (Túnel de raíces [SECRETO])
+  Área 5 → 1 (Puente natural oculto [SECRETO])
+  Área 9 → 4 (Sendero cubierto por enredaderas [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+  • Área 3: Único (Arma ancestral orca, estandarte mágico de batalla)
+
+🎭 IDEAS DE ENCUENTROS PARA Campamento de Orcos:
+  • Patrullas orcas
+  • Chamanes orcos
+  • Bestias de guerra
+  • Prisioneros desesperados
+
+        </pre>
+        
+        <div class="actions">
+            <a href="index.html" class="back-button">← Volver al Índice</a>
+            <a href="bosque_campamento de orcos_8989.txt" class="back-button" download>📥 Descargar TXT Original</a>
+        </div>
+        
+        <div class="footer">
+            <p>Generado el 2025-12-09 20:34 • Conversor TXT a HTML</p>
+            <p>Total: 133 líneas • 6494 caracteres</p>
+        </div>
+    </div>
+    
+    <script>
+        // Mejorar la visualización en móvil
+        document.addEventListener('DOMContentLoaded', function() {
+            // Añadir clases a elementos específicos
+            const pre = document.querySelector('pre');
+            const text = pre.textContent;
+            
+            // Resaltar secciones importantes
+            const lines = text.split('\n');
+            let newHTML = '';
+            
+            lines.forEach(line => {
+                if (line.includes('--- ÁREA')) {
+                    newHTML += '<span class="area-title">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔗 **Conexiones**:')) {
+                    newHTML += '<span class="section-header">' + escapeHtml(line) + '</span>\n';
+                } else if (line.startsWith('→')) {
+                    newHTML += '<span class="connection">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('💰 **Tesoro**:')) {
+                    newHTML += '<span class="section-header treasure">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('⚠️  **Peligro**:')) {
+                    newHTML += '<span class="section-header danger">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🎨 **Atrezo**:')) {
+                    newHTML += '<span class="section-header prop">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('📖')) {
+                    newHTML += '<span class="highlight">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔍')) {
+                    newHTML += '<span class="event">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('=================================================================')) {
+                    newHTML += '<span class="comment">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('Para el DJ:')) {
+                    newHTML += '<span class="keyword">' + escapeHtml(line) + '</span>\n';
+                } else {
+                    newHTML += escapeHtml(line) + '\n';
+                }
+            });
+            
+            pre.innerHTML = newHTML;
+            
+            // Hacer que el contenido sea seleccionable pero manteniendo formato
+            pre.style.userSelect = 'text';
+            pre.style.webkitUserSelect = 'text';
+            
+            // Función para escapar HTML
+            function escapeHtml(text) {
+                return text
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        });
+    </script>
+</body>
+</html>

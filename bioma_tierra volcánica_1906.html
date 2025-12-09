@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>bioma_tierra volcánica_1906 - Escenario de Rol</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 20px 15px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2530 100%);
+            color: white;
+            padding: 25px 20px;
+            margin: -20px -15px 25px -15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+        
+        .metadata-item {
+            background: rgba(255,255,255,0.1);
+            padding: 5px 12px;
+            border-radius: 15px;
+        }
+        
+        pre {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #333;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        /* Estilos para el contenido dentro del pre */
+        pre .section-header {
+            color: #569cd6;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0 5px 0;
+            font-size: 1.1em;
+        }
+        
+        pre .area-title {
+            color: #4ec9b0;
+            font-weight: bold;
+            display: block;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        
+        pre .connection {
+            color: #9cdcfe;
+        }
+        
+        pre .treasure {
+            color: #ffd700;
+        }
+        
+        pre .danger {
+            color: #f48771;
+        }
+        
+        pre .prop {
+            color: #ce9178;
+        }
+        
+        pre .event {
+            color: #c586c0;
+        }
+        
+        pre .highlight {
+            color: #d7ba7d;
+            font-weight: bold;
+        }
+        
+        pre .comment {
+            color: #6a9955;
+        }
+        
+        pre .string {
+            color: #ce9178;
+        }
+        
+        pre .keyword {
+            color: #569cd6;
+        }
+        
+        pre .number {
+            color: #b5cea8;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .header {
+                padding: 20px 15px;
+                margin: -15px -10px 20px -10px;
+            }
+            
+            .title {
+                font-size: 1.5rem;
+            }
+            
+            pre {
+                padding: 15px;
+                font-size: 13px;
+                margin: 15px -10px;
+                border-radius: 0;
+            }
+            
+            .metadata {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            pre {
+                font-size: 12px;
+                padding: 12px;
+            }
+            
+            .actions {
+                flex-direction: column;
+            }
+            
+            .back-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">bioma_tierra volcánica_1906</h1>
+        <p class="subtitle">📄 Archivo de escenario para juegos de rol</p>
+        <div class="metadata">
+            <span class="metadata-item">📁 TXT Original</span>
+            <span class="metadata-item">📱 Optimizado para móvil</span>
+            <span class="metadata-item">🔄 Convertido automáticamente</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <pre>
+🌋 GENERADOR DE BIOMAS EXTREMOS - TIERRA VOLCÁNICA
+=================================================================
+Tipo: Tierra Volcánica
+Características: Suelo que quema a través de las botas, Nubes de ceniza que bloquean el sol, Géiseres que eruptan sin previo aviso, Ríos de lava que cambian su curso
+=================================================================
+⚠️  ADVERTENCIA: Estos biomas son MORTALES sin preparación adecuada.
+Usa 'Especial' y 'Eventos Extremos' como desafíos de supervivencia.
+Las conexiones [SECRETO/INESTABLE] pueden ser trampas o atajos vitales.
+=================================================================
+
+--- ZONA 01 [V] ---
+📖 Columna basáltica formando patrones hexagonales perfectos. [Ambientación: Tranquilo] (🔊 Crujido sutil, 👃 Minerales, ⚡ Luz estable)
+🔗 **Conexiones**:
+   → Zona 2 (Ruta principal, conexión obvia)
+   → Zona 10 (Ruta alternativa, Exposición a Elemento Extremo)
+🎨 **Atrezo/Equipo**: Martillo que resuena con los terremotos.
+💰 **Tesoro**: Pequeño (Fragmento de obsidiana afilada, cristal de azufre puro, carbón que nunca se consume)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+🔍 **Pista/Misterio**: Cristal que almacena recuerdos/visiones
+
+--- ZONA 02 [M] ---
+📖 Río de lava lento que fluye cuesta arriba. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Muerte, ⚡ Presencia amenazante)
+🔗 **Conexiones**:
+   → Zona 3 (Ruta principal, conexión obvia)
+   → Zona 5 (Ruta alternativa, Solo Pasable en Condiciones Específicas)
+   → Zona 8 (Portal inestable [SECRETO/INESTABLE])
+   → Zona 7 (Atajo traicionero, Peligro Constante)
+🎨 **Atrezo/Equipo**: Guantes que permiten tocar lava sin daño., Lupa que enciende fuego con la luz de la lava.
+💰 **Tesoro**: Grande (Tesoro del dios volcán, huevo de fénix, corazón de dragón de magma)
+☠️  **Peligro**: Extremo (Río de lava que corta el camino de retorno.)
+
+--- ZONA 03 [G] ---
+📖 Campo de fumarolas que exhalan gases multicolores. [Ambientación: Caótico] (🔊 Crujidos aleatorios, 👃 Caos, ⚡ Inestabilidad)
+🔗 **Conexiones**:
+   → Zona 4 (Ruta principal, conexión obvia)
+   → Zona 12 (Atajo traicionero, Exposición a Elemento Extremo)
+🎨 **Atrezo/Equipo**: Frasco que contiene un pequeño géiser., Yunque portátil hecho de obsidiana., Cristal que almacena calor por años., **Especial**: Suelo que quema a través de las botas
+💰 **Tesoro**: Único (Gema que contiene un volcán en miniatura, martillo del herrero elemental, corona de lava solidificada)
+☠️  **Peligro**: Leve (Gases tóxicos que causan mareos y náuseas.)
+
+--- ZONA 04 [V] ---
+📖 Cristales de azufre que crecen como flores. [Ambientación: Tranquilo] (🔊 Crujido sutil, 👃 Minerales, ⚡ Calma pre-tormenta)
+🔗 **Conexiones**:
+   → Zona 5 (Ruta principal, conexión obvia)
+   → Zona 3 (Atajo traicionero, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 7 (Atajo traicionero, Recurso Limitado (oxígeno, agua, protección))
+🎨 **Atrezo/Equipo**: Botas con suelas de basalto que no se derriten., Guantes que permiten tocar lava sin daño., Lupa que enciende fuego con la luz de la lava.
+💰 **Tesoro**: Pequeño (Fragmento de obsidiana afilada, cristal de azufre puro, carbón que nunca se consume)
+☠️  **Peligro**: Extremo (Río de lava que corta el camino de retorno.)
+
+--- ZONA 05 [M] ---
+📖 Volcán enano que erupciona gemas en lugar de lava. [Ambientación: Extremo] (🔊 Rugido del elemento, 👃 Elemento puro, ⚡ Poder visible)
+🔗 **Conexiones**:
+   → Zona 6 (Ruta principal, conexión obvia)
+   → Zona 2 (Camino peligroso)
+   → Zona 9 (Sendero de supervivencia, Requiere Equipo Especial)
+🎨 **Atrezo/Equipo**: Yunque portátil hecho de obsidiana.
+💰 **Tesoro**: Grande (Tesoro del dios volcán, huevo de fénix, corazón de dragón de magma)
+☠️  **Peligro**: Extremo (Río de lava que corta el camino de retorno.)
+🔍 **Pista/Misterio**: Objeto de otra dimensión/tiempo
+
+--- ZONA 06 [V] ---
+📖 Playa de arena negra que quema incluso de noche. [Ambientación: Caótico] (🔊 Voces superpuestas, 👃 Confusión, ⚡ Cambios rápidos)
+🔗 **Conexiones**:
+   → Zona 7 (Ruta principal, conexión obvia)
+   → Zona 1 (Atajo traicionero)
+   → Zona 8 (Sendero de supervivencia, Navegación Difícil)
+   → Zona 5 (Sendero de supervivencia, Peligro Constante)
+🎨 **Atrezo/Equipo**: Nada que no sea el ambiente hostil.
+💰 **Tesoro**: Mediano (Arma forjada en lava viva, armadura de escamas de salamandra, mapa de vetas de minerales raros)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+🔍 **Evento Extremo**: Zona de silencio absoluto
+
+--- ZONA 07 [G] ---
+📖 Piedra pómez flotando en lagos de ácido. [Ambientación: Alienígena] (🔊 Zumbidos no naturales, 👃 Química extraña, ⚡ Gravedad fluctuante)
+🔗 **Conexiones**:
+   → Zona 8 (Ruta principal, conexión obvia)
+   → Zona 10 (Túnel elemental [SECRETO/INESTABLE])
+   → Zona 5 (Camino peligroso, Requiere Equipo Especial)
+🎨 **Atrezo/Equipo**: Cristal que almacena calor por años., Cadena que no se calienta incluso en magma.
+💰 **Tesoro**: Grande (Tesoro del dios volcán, huevo de fénix, corazón de dragón de magma)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+🔍 **Evento Extremo**: Terremoto menor que abre nuevas grietas
+
+--- ZONA 08 [G] ---
+📖 Géiser que erupta cada 13 minutos exactamente. [Ambientación: Alienígena] (🔊 Ritmos orgánicos, 👃 Especias dimensionales, ⚡ Geometrías imposibles)
+🔗 **Conexiones**:
+   → Zona 9 (Ruta principal, conexión obvia)
+   → Zona 10 (Camino peligroso, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Martillo que resuena con los terremotos., Guantes que permiten tocar lava sin daño., Lupa que enciende fuego con la luz de la lava.
+💰 **Tesoro**: Mediano (Arma forjada en lava viva, armadura de escamas de salamandra, mapa de vetas de minerales raros)
+☠️  **Peligro**: Leve (Gases tóxicos que causan mareos y náuseas.)
+
+--- ZONA 09 [V] ---
+📖 Géiser que erupta cada 13 minutos exactamente. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Muerte, ⚡ Señales de peligro)
+🔗 **Conexiones**:
+   → Zona 10 (Ruta principal, conexión obvia)
+   → Zona 8 (Ruta alternativa)
+   → Zona 12 (Camino peligroso)
+🎨 **Atrezo/Equipo**: Cadena que no se calienta incluso en magma.
+💰 **Tesoro**: Único (Gema que contiene un volcán en miniatura, martillo del herrero elemental, corona de lava solidificada)
+☠️  **Peligro**: Severo (Lluvia de ceniza caliente que quema y asfixia.)
+
+--- ZONA 10 [G] ---
+📖 Playa de arena negra que quema incluso de noche. [Ambientación: Tranquilo] (🔊 Eco distante, 👃 Minerales, ⚡ Luz estable)
+🔗 **Conexiones**:
+   → Zona 11 (Ruta principal, conexión obvia)
+   → Zona 5 (Sendero de supervivencia)
+🎨 **Atrezo/Equipo**: Yunque portátil hecho de obsidiana., Cadena que no se calienta incluso en magma., Red para atrapar piedras pómez flotantes., **Especial**: Suelo que quema a través de las botas
+💰 **Tesoro**: Pequeño (Fragmento de obsidiana afilada, cristal de azufre puro, carbón que nunca se consume)
+☠️  **Peligro**: Severo (Lluvia de ceniza caliente que quema y asfixia.)
+
+--- ZONA 11 [P] ---
+📖 Columna basáltica formando patrones hexagonales perfectos. [Ambientación: Hostil] (🔊 Crujido de estructuras, 👃 Muerte, ⚡ Ambiente opresivo)
+🔗 **Conexiones**:
+   → Zona 12 (Ruta principal, conexión obvia)
+   → Zona 3 (Sendero de supervivencia)
+🎨 **Atrezo/Equipo**: Lupa que enciende fuego con la luz de la lava., **Especial**: Ríos de lava que cambian su curso
+💰 **Tesoro**: Mediano (Arma forjada en lava viva, armadura de escamas de salamandra, mapa de vetas de minerales raros)
+☠️  **Peligro**: Severo (Lluvia de ceniza caliente que quema y asfixia.)
+
+--- ZONA 12 [M] ---
+📖 Túnel de lava solidificada con burbujas de aire atrapadas. [Ambientación: Caótico] (🔊 Estruendo constante, 👃 Confusión, ⚡ Impredecibilidad)
+🔗 **Conexiones**:
+   → Zona 3 (Camino peligroso, Exposición a Elemento Extremo)
+   → Zona 1 (Sendero de supervivencia, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Frasco que contiene un pequeño géiser., Cristal que almacena calor por años., Martillo que resuena con los terremotos.
+💰 **Tesoro**: Pequeño (Fragmento de obsidiana afilada, cristal de azufre puro, carbón que nunca se consume)
+☠️  **Peligro**: Leve (Gases tóxicos que causan mareos y náuseas.)
+🔍 **Pista/Misterio**: Objeto de otra dimensión/tiempo
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO - BIOMA EXTREMO
+=================================================================
+• Total zonas: 12
+• Distribución tamaños: Mediano: 3, Pequeño: 1, Grande: 4, Vast o: 4
+• Zonas con tesoro: 12
+• Zonas con peligro mortal (Severo+): 6
+• Conexiones secretas/inestables: 2
+  Zona 2 → 8 (Portal inestable [SECRETO/INESTABLE])
+  Zona 7 → 10 (Túnel elemental [SECRETO/INESTABLE])
+
+🎯 PUNTOS DE INTERÉS CRÍTICOS:
+  • Zona 3: Único (Gema que contiene un volcán en miniatura, martillo del herrero elemental, corona de lava solidificada) (¡Puede justificar la expedición!)
+  • Zona 3: **Especial**: Suelo que quema a través de las botas (Característica única del bioma)
+  • Zona 9: Único (Gema que contiene un volcán en miniatura, martillo del herrero elemental, corona de lava solidificada) (¡Puede justificar la expedición!)
+  • Zona 10: **Especial**: Suelo que quema a través de las botas (Característica única del bioma)
+  • Zona 11: **Especial**: Ríos de lava que cambian su curso (Característica única del bioma)
+
+👹 ENCUENTROS EXTREMOS PARA Tierra Volcánica:
+  • Elementales de fuego
+  • Salamandras gigantes
+  • Dragones de magma
+  • Gólems de obsidiana
+
+⚙️ REGLAS DE SUPERVIVENCIA SUGERIDAS:
+  Daño por calor cada 20min
+  Chequeos de Destreza para evitar grietas
+  Armaduras metálicas causan daño adicional
+
+        </pre>
+        
+        <div class="actions">
+            <a href="index.html" class="back-button">← Volver al Índice</a>
+            <a href="bioma_tierra volcánica_1906.txt" class="back-button" download>📥 Descargar TXT Original</a>
+        </div>
+        
+        <div class="footer">
+            <p>Generado el 2025-12-09 20:34 • Conversor TXT a HTML</p>
+            <p>Total: 159 líneas • 9588 caracteres</p>
+        </div>
+    </div>
+    
+    <script>
+        // Mejorar la visualización en móvil
+        document.addEventListener('DOMContentLoaded', function() {
+            // Añadir clases a elementos específicos
+            const pre = document.querySelector('pre');
+            const text = pre.textContent;
+            
+            // Resaltar secciones importantes
+            const lines = text.split('\n');
+            let newHTML = '';
+            
+            lines.forEach(line => {
+                if (line.includes('--- ÁREA')) {
+                    newHTML += '<span class="area-title">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔗 **Conexiones**:')) {
+                    newHTML += '<span class="section-header">' + escapeHtml(line) + '</span>\n';
+                } else if (line.startsWith('→')) {
+                    newHTML += '<span class="connection">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('💰 **Tesoro**:')) {
+                    newHTML += '<span class="section-header treasure">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('⚠️  **Peligro**:')) {
+                    newHTML += '<span class="section-header danger">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🎨 **Atrezo**:')) {
+                    newHTML += '<span class="section-header prop">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('📖')) {
+                    newHTML += '<span class="highlight">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔍')) {
+                    newHTML += '<span class="event">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('=================================================================')) {
+                    newHTML += '<span class="comment">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('Para el DJ:')) {
+                    newHTML += '<span class="keyword">' + escapeHtml(line) + '</span>\n';
+                } else {
+                    newHTML += escapeHtml(line) + '\n';
+                }
+            });
+            
+            pre.innerHTML = newHTML;
+            
+            // Hacer que el contenido sea seleccionable pero manteniendo formato
+            pre.style.userSelect = 'text';
+            pre.style.webkitUserSelect = 'text';
+            
+            // Función para escapar HTML
+            function escapeHtml(text) {
+                return text
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        });
+    </script>
+</body>
+</html>

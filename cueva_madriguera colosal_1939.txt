@@ -1,0 +1,119 @@
+🗺️ GENERADOR DE CUEVAS VECTORIAL - MADRIGUERA COLOSAL
+=================================================================
+Tipo: Madriguera Colosal
+Características: Rascaduras en paredes, Nidos/guaridas, Restos de presas, Pelaje/plumas atrapados
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- SALA 01 [M] ---
+📖 Cámara de cría, restos de cáscaras de huevo o placenta seca. [Ambientación: Seca] (🔊 Desplome de polvo, 👃 Piedra caliente, ⚡ Arena acumulada)
+🔗 **Conexiones**:
+   → Sala 2 (Túnel obvio, conexión principal)
+   → Sala 7 (Pasaje estrecho)
+   → Sala 5 (Pasaje estrecho, Suelo Resbaladizo)
+🎨 **Atrezo**: Trofeo (cráneo de criatura rival colocada prominentemente).
+💰 **Tesoro**: Pequeño (Colmillos de presas valiosas, garras afiladas, pelo especial)
+⚠️  **Peligro**: Fácil (Trampa de caza simple (foso poco profundo con estacas).)
+
+--- SALA 02 [M] ---
+📖 Rascadero, paredes con profundas marcas de garras a distintas alturas. [Ambientación: Viviente] (🔊 Movimiento en la oscuridad, 👃 Dulce (flores), ⚡ Raíces vivas)
+🔗 **Conexiones**:
+   → Sala 3 (Túnel obvio, conexión principal)
+   → Sala 8 (Pasaje estrecho, Caminata Larga)
+🎨 **Atrezo**: Entrada secundaria bloqueada con ramas y piedras.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 03 [G] ---
+📖 Refugio con pelaje reciente y olor extremo. [Ambientación: Mineral] (🔊 Ecos cristalinos, 👃 Metálico, ⚡ Superficies pulidas)
+🔗 **Conexiones**:
+   → Sala 4 (Túnel obvio, conexión principal)
+   → Sala 7 (Grieta camuflada [SECRETO])
+   → Sala 9 (Túnel lateral)
+🎨 **Atrezo**: Excrementos recientes que indican dieta y salud.
+💰 **Tesoro**: Pequeño (Colmillos de presas valiosas, garras afiladas, pelo especial)
+⚠️  **Peligro**: Común (Roca balanceada que cae al pasar.)
+
+--- SALA 04 [G] ---
+📖 Cámara de cría, restos de cáscaras de huevo o placenta seca. [Ambientación: Viviente] (🔊 Movimiento en la oscuridad, 👃 Dulce (flores), ⚡ Raíces vivas)
+🔗 **Conexiones**:
+   → Sala 5 (Túnel obvio, conexión principal)
+   → Sala 9 (Agujero en techo/suelo [SECRETO])
+   → Sala 3 (Pasaje estrecho)
+   → Sala 2 (Corredor natural, Caminata Larga)
+🎨 **Atrezo**: Almacén de comida semi-fresca.
+💰 **Tesoro**: Pequeño (Colmillos de presas valiosas, garras afiladas, pelo especial)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 05 [G] ---
+📖 Refugio con pelaje reciente y olor extremo. [Ambientación: Viviente] (🔊 Movimiento en la oscuridad, 👃 Dulce (flores), ⚡ Telarañas naturales)
+🔗 **Conexiones**:
+   → Sala 6 (Túnel obvio, conexión principal)
+   → Sala 3 (Corredor natural)
+   → Sala 4 (Pasaje estrecho)
+   → Sala 2 (Túnel lateral)
+🎨 **Atrezo**: Ninguno relevante o revisitable (solo roca húmeda).
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Ambiental (Olor que atrae depredadores o marca territorio peligroso.)
+
+--- SALA 06 [P] ---
+📖 Refugio con pelaje reciente y olor extremo. [Ambientación: Húmeda] (🔊 Chorro de agua lejano, 👃 Humedad intensa, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 7 (Túnel obvio, conexión principal)
+   → Sala 8 (Pasaje estrecho, Requiere Trepar)
+   → Sala 9 (Agujero en techo/suelo [SECRETO])
+🎨 **Atrezo**: Almacén de comida semi-fresca., Juguete animal (cuerno, roca lisa, tronco mordisqueado).
+💰 **Tesoro**: Pequeño (Colmillos de presas valiosas, garras afiladas, pelo especial)
+⚠️  **Peligro**: Común (Roca balanceada que cae al pasar.)
+
+--- SALA 07 [M] ---
+📖 Poza de bebida excavada, agua turbia con pelos flotando. [Ambientación: Húmeda] (🔊 Salpicaduras, 👃 Moho, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 8 (Túnel obvio, conexión principal)
+   → Sala 2 (Pasaje estrecho)
+🎨 **Atrezo**: Montón de huesos roídos y ordenados por tamaño., Área de descanso con pelambre y plumas acumuladas., Excrementos recientes que indican dieta y salud.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Fácil (Trampa de caza simple (foso poco profundo con estacas).)
+
+--- SALA 08 [M] ---
+📖 Túnel de ventilación, aire fresco pero con fuerte olor animal. [Ambientación: Húmeda] (🔊 Salpicaduras, 👃 Humedad intensa, ⚡ Charcos)
+🔗 **Conexiones**:
+   → Sala 9 (Túnel obvio, conexión principal)
+   → Sala 5 (Galería descendente)
+   → Sala 3 (Agujero en techo/suelo [SECRETO])
+🎨 **Atrezo**: Almacén de comida semi-fresca., Rascadero reciente con virutas de piedra fresca.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Mortal (Guarida de crías que atacan en grupo o bestia durmiendo ligero.)
+🔍 **Evento**: Una sombra pasa por detrás de los personajes sin fuente aparente.
+
+--- SALA 09 [M] ---
+📖 Zona de descanso con huellas corporales marcadas en la tierra blanda. [Ambientación: Húmeda] (🔊 Goteo constante, 👃 Humedad intensa, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 2 (Galería descendente)
+   → Sala 6 (Túnel lateral)
+🎨 **Atrezo**: Montón de huesos roídos y ordenados por tamaño., Almacén de comida semi-fresca., Trofeo (cráneo de criatura rival colocada prominentemente).
+💰 **Tesoro**: Mediano (Tesoro acumulado por bestia: monedas, joyas rotas)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total salas: 9
+• Distribución tamaños: Pequeña: 1, Grande: 3, Mediana: 5
+• Salas con tesoro: 5
+• Salas con peligro: 6
+• Conexiones secretas: 4
+  Sala 3 → 7 (Grieta camuflada [SECRETO])
+  Sala 4 → 9 (Agujero en techo/suelo [SECRETO])
+  Sala 6 → 9 (Agujero en techo/suelo [SECRETO])
+  Sala 8 → 3 (Agujero en techo/suelo [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+
+🎭 IDEAS DE ENCUENTROS PARA Madriguera Colosal:
+  • La bestia creadora de la madriguera
+  • Rivales territoriales
+  • Carroñeros

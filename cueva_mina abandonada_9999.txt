@@ -1,0 +1,261 @@
+🗺️ GENERADOR DE CUEVAS VECTORIAL - MINA ABANDONADA
+=================================================================
+Tipo: Mina Abandonada
+Características: Vetas minerales visibles, Soportes de madera podrida, Vagones oxidados, Herramientas abandonadas
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- SALA 01 [P] ---
+📖 Sala de maquinaria con restos de un torno o bomba de agua. [Ambientación: Viviente] (🔊 Chirridos, 👃 Dulce (flores), ⚡ Telarañas naturales)
+🔗 **Conexiones**:
+   → Sala 2 (Túnel obvio, conexión principal)
+   → Sala 21 (Túnel cubierto de hongos [SECRETO])
+   → Sala 5 (Pasaje estrecho)
+🎨 **Atrezo**: Vagoneta oxidada cargada de mineral sin procesar., Saco de cuero con herramientas oxidadas dentro.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 02 [M] ---
+📖 Cuarto de los mineros con bancos rotos y hogueras extinguidas. [Ambientación: Mineral] (🔊 Vibración baja, 👃 Azufre, ⚡ Superficies pulidas)
+🔗 **Conexiones**:
+   → Sala 3 (Túnel obvio, conexión principal)
+   → Sala 14 (Corredor natural)
+🎨 **Atrezo**: Ninguno relevante o revisitable (solo roca húmeda).
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Peligrosa (Grisú (gas explosivo) acumulado en bolsillo.)
+
+--- SALA 03 [M] ---
+📖 Depósito de dinamita totalmente húmeda. [Ambientación: Seca] (🔊 Silencio seco, 👃 Polvo, ⚡ Polvo suspendido)
+🔗 **Conexiones**:
+   → Sala 4 (Túnel obvio, conexión principal)
+   → Sala 8 (Agujero en techo/suelo [SECRETO])
+   → Sala 9 (Corredor natural)
+   → Sala 16 (Corredor natural, Caminata Larga)
+🎨 **Atrezo**: Diario ilegible por la humedad, con alguna página legible.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Fácil (Soporte podrido que cede y causa caída menor.)
+🔍 **Pista/Misterio**: Aire en movimiento (corriente fría/caliente estable)Un símbolo reciente pintado con barro fresco (¿otro explorador?).
+
+--- SALA 04 [G] ---
+📖 Sala de maquinaria con restos de un torno o bomba de agua. [Ambientación: Húmeda] (🔊 Chorro de agua lejano, 👃 Agua estancada, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 5 (Túnel obvio, conexión principal)
+   → Sala 21 (Grieta camuflada [SECRETO])
+   → Sala 10 (Túnel lateral, Peligro de Derrumbe)
+🎨 **Atrezo**: Ninguno relevante o revisitable (solo roca húmeda).
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Común (Vagoneta desenganchada que rueda cuesta abajo.)
+
+--- SALA 05 [M] ---
+📖 Cuarto de los mineros con bancos rotos y hogueras extinguidas. [Ambientación: Viviente] (🔊 Zumbidos de insectos, 👃 Dulce (flores), ⚡ Telarañas naturales)
+🔗 **Conexiones**:
+   → Sala 6 (Túnel obvio, conexión principal)
+   → Sala 12 (Agujero en techo/suelo [SECRETO])
+   → Sala 22 (Galería descendente)
+🎨 **Atrezo**: Reloj de turnos detenido a cierta hora., Barrica podrida que contenía agua o pólvora., **Especial**: Vagones oxidados
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Común (Vagoneta desenganchada que rueda cuesta abajo.)
+
+--- SALA 06 [P] ---
+📖 Galería principal con raíles oxidados y durmientes podridos. [Ambientación: Mineral] (🔊 Ecos cristalinos, 👃 Azufre, ⚡ Formaciones geométricas)
+🔗 **Conexiones**:
+   → Sala 7 (Túnel obvio, conexión principal)
+   → Sala 10 (Galería descendente, Peligro de Derrumbe)
+🎨 **Atrezo**: Diario ilegible por la humedad, con alguna página legible.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+🔍 **Pista/Misterio**: Piedra marcada con arañazos… pero demasiado altos para un humano.
+
+--- SALA 07 [G] ---
+📖 Sala de descanso con cascos tirados por el suelo. [Ambientación: Viviente] (🔊 Movimiento en la oscuridad, 👃 Podrido, ⚡ Raíces vivas)
+🔗 **Conexiones**:
+   → Sala 8 (Túnel obvio, conexión principal)
+   → Sala 5 (Pasaje estrecho)
+🎨 **Atrezo**: Saco de cuero con herramientas oxidadas dentro., Linterna de aceite vacía y oxidada.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 08 [P] ---
+📖 Mesa con cálculos mineros parcialmente legibles. [Ambientación: Seca] (🔊 Crujido de grava, 👃 Piedra caliente, ⚡ Grietas en suelo)
+🔗 **Conexiones**:
+   → Sala 9 (Túnel obvio, conexión principal)
+   → Sala 5 (Túnel lateral)
+   → Sala 10 (Corredor natural)
+🎨 **Atrezo**: Linterna de aceite vacía y oxidada., Barrica podrida que contenía agua o pólvora., **Especial**: Vetas minerales visibles
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 09 [M] ---
+📖 Almacén de mineral con vagonetas volcadas y vetas agotadas. [Ambientación: Seca] (🔊 Silencio seco, 👃 Polvo, ⚡ Grietas en suelo)
+🔗 **Conexiones**:
+   → Sala 10 (Túnel obvio, conexión principal)
+   → Sala 4 (Corredor natural)
+🎨 **Atrezo**: Marcas de medición y números pintados en la pared.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 10 [M] ---
+📖 Sala de descanso con cascos tirados por el suelo. [Ambientación: Mineral] (🔊 Ecos cristalinos, 👃 Electricidad estática, ⚡ Superficies pulidas)
+🔗 **Conexiones**:
+   → Sala 11 (Túnel obvio, conexión principal)
+   → Sala 7 (Pasaje estrecho)
+🎨 **Atrezo**: Ninguno relevante o revisitable (solo roca húmeda).
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+🔍 **Evento**: Olor que cambia repentinamente
+
+--- SALA 11 [M] ---
+📖 Pozo de ascensor con cabrestante y cuerdas deshilachadas. [Ambientación: Húmeda] (🔊 Salpicaduras, 👃 Humedad intensa, ⚡ Charcos)
+🔗 **Conexiones**:
+   → Sala 12 (Túnel obvio, conexión principal)
+   → Sala 8 (Agujero en techo/suelo [SECRETO])
+🎨 **Atrezo**: Vagoneta oxidada cargada de mineral sin procesar., Marcas de medición y números pintados en la pared., Saco de cuero con herramientas oxidadas dentro.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Mortal (Pozo de mina sin marcar de caída profunda.)
+
+--- SALA 12 [G] ---
+📖 Taller de herrería con yunque y fragua fría. [Ambientación: Húmeda] (🔊 Goteo constante, 👃 Moho, ⚡ Paredes rezumantes)
+🔗 **Conexiones**:
+   → Sala 13 (Túnel obvio, conexión principal)
+   → Sala 22 (Túnel lateral)
+   → Sala 15 (Túnel lateral)
+   → Sala 8 (Galería descendente, Suelo Resbaladizo)
+🎨 **Atrezo**: Reloj de turnos detenido a cierta hora.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 13 [P] ---
+📖 Sala de maquinaria con restos de un torno o bomba de agua. [Ambientación: Seca] (🔊 Silencio seco, 👃 Polvo, ⚡ Polvo suspendido)
+🔗 **Conexiones**:
+   → Sala 14 (Túnel obvio, conexión principal)
+   → Sala 22 (Agujero en techo/suelo [SECRETO])
+   → Sala 12 (Galería descendente)
+   → Sala 18 (Pasadizo tras cascada [SECRETO])
+🎨 **Atrezo**: Linterna de aceite vacía y oxidada., **Especial**: Soportes de madera podrida
+💰 **Tesoro**: Grande (Cofre de pago de mineros, veta expuesta de gemas, inventario)
+⚠️  **Peligro**: Ambiental (Polvo de sílice que daña pulmones o mala ventilación.)
+
+--- SALA 14 [M] ---
+📖 Desagüe inundado, bomba de achique fuera de servicio. [Ambientación: Mineral] (🔊 Ecos cristalinos, 👃 Electricidad estática, ⚡ Reflejos)
+🔗 **Conexiones**:
+   → Sala 15 (Túnel obvio, conexión principal)
+   → Sala 18 (Corredor natural, Peligro de Derrumbe)
+🎨 **Atrezo**: Vagoneta oxidada cargada de mineral sin procesar., Barrica podrida que contenía agua o pólvora.
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Fácil (Soporte podrido que cede y causa caída menor.)
+
+--- SALA 15 [P] ---
+📖 Frente de excavación, picos abandonados y marcas de explosivos. [Ambientación: Seca] (🔊 Silencio seco, 👃 Aire rancio, ⚡ Grietas en suelo)
+🔗 **Conexiones**:
+   → Sala 16 (Túnel obvio, conexión principal)
+   → Sala 8 (Pasaje estrecho)
+   → Sala 3 (Túnel lateral, Suelo Resbaladizo)
+🎨 **Atrezo**: Restos de comida enlatada de hace décadas., Diario ilegible por la humedad, con alguna página legible.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Fácil (Soporte podrido que cede y causa caída menor.)
+🔍 **Evento**: Sonido inexplicable (risas, susurros, golpes)
+
+--- SALA 16 [M] ---
+📖 Sala de descanso con cascos tirados por el suelo. [Ambientación: Mineral] (🔊 Crujido de cristales, 👃 Azufre, ⚡ Superficies pulidas)
+🔗 **Conexiones**:
+   → Sala 17 (Túnel obvio, conexión principal)
+   → Sala 7 (Pasaje estrecho, Caminata Larga)
+🎨 **Atrezo**: Barrica podrida que contenía agua o pólvora., Diario ilegible por la humedad, con alguna página legible.
+💰 **Tesoro**: Mediano (Caja de herramientas maestras, lingote escondido, mapa de vetas)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+
+--- SALA 17 [M] ---
+📖 Oficina del capataz con mesa podrida y mapas desintegrados. [Ambientación: Mineral] (🔊 Ecos cristalinos, 👃 Azufre, ⚡ Formaciones geométricas)
+🔗 **Conexiones**:
+   → Sala 18 (Túnel obvio, conexión principal)
+   → Sala 3 (Galería descendente)
+   → Sala 20 (Pasaje estrecho)
+   → Sala 21 (Galería descendente, Agua Profunda)
+🎨 **Atrezo**: Restos de comida enlatada de hace décadas.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Fácil (Soporte podrido que cede y causa caída menor.)
+🔍 **Evento**: Inundación gradual (el agua sube 1cm por minuto)
+
+--- SALA 18 [P] ---
+📖 Pasaje colapsado con un hueco apenas visible al fondo. [Ambientación: Seca] (🔊 Crujido de grava, 👃 Polvo, ⚡ Arena acumulada)
+🔗 **Conexiones**:
+   → Sala 19 (Túnel obvio, conexión principal)
+   → Sala 17 (Galería descendente, Peligro de Derrumbe)
+   → Sala 6 (Túnel lateral)
+   → Sala 16 (Galería descendente, Requiere Trepar)
+🎨 **Atrezo**: **Especial**: Vetas minerales visibles
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Peligrosa (Grisú (gas explosivo) acumulado en bolsillo.)
+
+--- SALA 19 [G] ---
+📖 Pozo de ascensor con cabrestante y cuerdas deshilachadas. [Ambientación: Húmeda] (🔊 Goteo constante, 👃 Agua estancada, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 20 (Túnel obvio, conexión principal)
+   → Sala 17 (Túnel lateral)
+   → Sala 6 (Pasaje estrecho)
+   → Sala 4 (Galería descendente)
+🎨 **Atrezo**: Ninguno relevante o revisitable (solo roca húmeda).
+💰 **Tesoro**: Grande (Cofre de pago de mineros, veta expuesta de gemas, inventario)
+⚠️  **Peligro**: Común (Vagoneta desenganchada que rueda cuesta abajo.)
+
+--- SALA 20 [M] ---
+📖 Sala de maquinaria con restos de un torno o bomba de agua. [Ambientación: Seca] (🔊 Crujido de grava, 👃 Aire rancio, ⚡ Polvo suspendido)
+🔗 **Conexiones**:
+   → Sala 21 (Túnel obvio, conexión principal)
+   → Sala 2 (Túnel lateral)
+   → Sala 12 (Pasaje estrecho, Requiere Trepar)
+🎨 **Atrezo**: Diario ilegible por la humedad, con alguna página legible., Reloj de turnos detenido a cierta hora., Barrica podrida que contenía agua o pólvora.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Común (Vagoneta desenganchada que rueda cuesta abajo.)
+🔍 **Evento**: Inundación gradual (el agua sube 1cm por minuto)
+
+--- SALA 21 [M] ---
+📖 Cuarto de los mineros con bancos rotos y hogueras extinguidas. [Ambientación: Mineral] (🔊 Vibración baja, 👃 Electricidad estática, ⚡ Reflejos)
+🔗 **Conexiones**:
+   → Sala 22 (Túnel obvio, conexión principal)
+   → Sala 14 (Corredor natural)
+🎨 **Atrezo**: Barrica podrida que contenía agua o pólvora., **Especial**: Vetas minerales visibles
+💰 **Tesoro**: Único (Planos de máquina perdida, diario del fundidor maestro, mineral viviente)
+⚠️  **Peligro**: Nada (Ninguna. Zona de roca estable.)
+🔍 **Evento**: Una sombra pasa por detrás de los personajes sin fuente aparente.
+
+--- SALA 22 [P] ---
+📖 Sala de soporte con vigas de madera que crujen peligrosamente. [Ambientación: Húmeda] (🔊 Goteo constante, 👃 Agua estancada, ⚡ Condensación)
+🔗 **Conexiones**:
+   → Sala 11 (Túnel lateral)
+🎨 **Atrezo**: Mesa de cartografía con mapas comidos por insectos., Reloj de turnos detenido a cierta hora., Restos de comida enlatada de hace décadas.
+💰 **Tesoro**: Pequeño (Herramienta de calidad, pepita de oro, mineral sin procesar)
+⚠️  **Peligro**: Común (Vagoneta desenganchada que rueda cuesta abajo.)
+🔍 **Evento**: La temperatura sube o baja drásticamente durante unos segundos.
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total salas: 22
+• Distribución tamaños: Grande: 4, Mediana: 11, Pequeña: 7
+• Salas con tesoro: 17
+• Salas con peligro: 13
+• Conexiones secretas: 7
+  Sala 1 → 21 (Túnel cubierto de hongos [SECRETO])
+  Sala 3 → 8 (Agujero en techo/suelo [SECRETO])
+  Sala 4 → 21 (Grieta camuflada [SECRETO])
+  Sala 5 → 12 (Agujero en techo/suelo [SECRETO])
+  Sala 11 → 8 (Agujero en techo/suelo [SECRETO])
+  Sala 13 → 22 (Agujero en techo/suelo [SECRETO])
+  Sala 13 → 18 (Pasadizo tras cascada [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+  • Sala 5: **Especial**: Vagones oxidados
+  • Sala 8: **Especial**: Vetas minerales visibles
+  • Sala 13: **Especial**: Soportes de madera podrida
+  • Sala 18: **Especial**: Vetas minerales visibles
+  • Sala 21: Único (Planos de máquina perdida, diario del fundidor maestro, mineral viviente)
+  • Sala 21: **Especial**: Vetas minerales visibles
+
+🎭 IDEAS DE ENCUENTROS PARA Mina Abandonada:
+  • Fantasmas de mineros
+  • Gremio enano reclamándola
+  • Xenomorfos/metálicos

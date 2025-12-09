@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>bioma_profundidades abisales_9821 - Escenario de Rol</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 20px 15px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2530 100%);
+            color: white;
+            padding: 25px 20px;
+            margin: -20px -15px 25px -15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+        
+        .metadata-item {
+            background: rgba(255,255,255,0.1);
+            padding: 5px 12px;
+            border-radius: 15px;
+        }
+        
+        pre {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #333;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        /* Estilos para el contenido dentro del pre */
+        pre .section-header {
+            color: #569cd6;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0 5px 0;
+            font-size: 1.1em;
+        }
+        
+        pre .area-title {
+            color: #4ec9b0;
+            font-weight: bold;
+            display: block;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        
+        pre .connection {
+            color: #9cdcfe;
+        }
+        
+        pre .treasure {
+            color: #ffd700;
+        }
+        
+        pre .danger {
+            color: #f48771;
+        }
+        
+        pre .prop {
+            color: #ce9178;
+        }
+        
+        pre .event {
+            color: #c586c0;
+        }
+        
+        pre .highlight {
+            color: #d7ba7d;
+            font-weight: bold;
+        }
+        
+        pre .comment {
+            color: #6a9955;
+        }
+        
+        pre .string {
+            color: #ce9178;
+        }
+        
+        pre .keyword {
+            color: #569cd6;
+        }
+        
+        pre .number {
+            color: #b5cea8;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .header {
+                padding: 20px 15px;
+                margin: -15px -10px 20px -10px;
+            }
+            
+            .title {
+                font-size: 1.5rem;
+            }
+            
+            pre {
+                padding: 15px;
+                font-size: 13px;
+                margin: 15px -10px;
+                border-radius: 0;
+            }
+            
+            .metadata {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            pre {
+                font-size: 12px;
+                padding: 12px;
+            }
+            
+            .actions {
+                flex-direction: column;
+            }
+            
+            .back-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">bioma_profundidades abisales_9821</h1>
+        <p class="subtitle">📄 Archivo de escenario para juegos de rol</p>
+        <div class="metadata">
+            <span class="metadata-item">📁 TXT Original</span>
+            <span class="metadata-item">📱 Optimizado para móvil</span>
+            <span class="metadata-item">🔄 Convertido automáticamente</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <pre>
+🌋 GENERADOR DE BIOMAS EXTREMOS - PROFUNDIDADES ABISALES
+=================================================================
+Tipo: Profundidades Abisales
+Características: Presión que aplasta huesos, Oscuridad absoluta (visión 0), Silencio sepulcral que amplifica los latidos, Criaturas bioluminiscentes como única luz
+=================================================================
+⚠️  ADVERTENCIA: Estos biomas son MORTALES sin preparación adecuada.
+Usa 'Especial' y 'Eventos Extremos' como desafíos de supervivencia.
+Las conexiones [SECRETO/INESTABLE] pueden ser trampas o atajos vitales.
+=================================================================
+
+--- ZONA 01 [M] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Advertencia, ⚡ Presencia amenazante)
+🔗 **Conexiones**:
+   → Zona 2 (Ruta principal, conexión obvia)
+   → Zona 7 (Atajo traicionero, Peligro Constante)
+   → Zona 5 (Ruta alternativa, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Red para atrapar criaturas bioluminiscentes.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+🔍 **Pista/Misterio**: Cristal que almacena recuerdos/visiones
+
+--- ZONA 02 [G] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Alienígena] (🔊 Zumbidos no naturales, 👃 Química extraña, ⚡ Gravedad fluctuante)
+🔗 **Conexiones**:
+   → Zona 3 (Ruta principal, conexión obvia)
+   → Zona 7 (Sendero de supervivencia, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 5 (Ruta alternativa, Peligro Constante)
+   → Zona 10 (Atajo traicionero)
+🎨 **Atrezo/Equipo**: Mapa de corrientes abisales.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Letal (Presión que aplasta como una prensa hidráulica.)
+🔍 **Evento Extremo**: Erupción de energía telúrica/mágica
+
+--- ZONA 03 [G] ---
+📖 Bosque de chimeneas hidrotermales. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Muerte, ⚡ Ambiente opresivo)
+🔗 **Conexiones**:
+   → Zona 4 (Ruta principal, conexión obvia)
+   → Zona 2 (Atajo traicionero, Exposición a Elemento Extremo)
+🎨 **Atrezo/Equipo**: Cuchillo hecho de diente de criatura abisal., Arpón con cuerda de seda de gusano de las profundidades., Red para atrapar criaturas bioluminiscentes.
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+🔍 **Pista/Misterio**: Brizna de hierba en un lugar imposible
+
+--- ZONA 04 [M] ---
+📖 Bosque de chimeneas hidrotermales. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Muerte, ⚡ Señales de peligro)
+🔗 **Conexiones**:
+   → Zona 5 (Ruta principal, conexión obvia)
+   → Zona 6 (Sendero de supervivencia, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 1 (Atajo traicionero)
+   → Zona 2 (Ruta alternativa)
+🎨 **Atrezo/Equipo**: **Especial**: Silencio sepulcral que amplifica los latidos
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Letal (Presión que aplasta como una prensa hidráulica.)
+
+--- ZONA 05 [G] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Peligro, ⚡ Ambiente opresivo)
+🔗 **Conexiones**:
+   → Zona 6 (Ruta principal, conexión obvia)
+   → Zona 10 (Ruta alternativa)
+🎨 **Atrezo/Equipo**: Lámpara que funciona con presión hidrostática.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+
+--- ZONA 06 [V] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Alienígena] (🔊 Ritmos orgánicos, 👃 Aromas desconocidos, ⚡ Gravedad fluctuante)
+🔗 **Conexiones**:
+   → Zona 7 (Ruta principal, conexión obvia)
+   → Zona 4 (Sendero de supervivencia, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Prisma que divides la bioluminiscencia en colores., Botella con agua de las profundidades., **Especial**: Silencio sepulcral que amplifica los latidos
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Extremo (Criatura abisal que atrae a sus presas con bioluminiscencia.)
+
+--- ZONA 07 [P] ---
+📖 Fosa donde la luz nunca llegó. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Peligro, ⚡ Señales de peligro)
+🔗 **Conexiones**:
+   → Zona 8 (Ruta principal, conexión obvia)
+   → Zona 4 (Ruta alternativa, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 2 (Portal inestable [SECRETO/INESTABLE])
+🎨 **Atrezo/Equipo**: Arpón con cuerda de seda de gusano de las profundidades.
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+
+--- ZONA 08 [G] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Extremo] (🔊 Grito del vacío, 👃 Elemento puro, ⚡ Esencia materializada)
+🔗 **Conexiones**:
+   → Zona 9 (Ruta principal, conexión obvia)
+   → Zona 7 (Sendero de supervivencia, Navegación Difícil)
+🎨 **Atrezo/Equipo**: Nada que no sea el ambiente hostil.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Extremo (Criatura abisal que atrae a sus presas con bioluminiscencia.)
+🔍 **Evento Extremo**: Aurora de partículas mágicas/radiactivas
+
+--- ZONA 09 [M] ---
+📖 Fosa donde la luz nunca llegó. [Ambientación: Extremo] (🔊 Rugido del elemento, 👃 Fuerza primigenia, ⚡ Poder visible)
+🔗 **Conexiones**:
+   → Zona 10 (Ruta principal, conexión obvia)
+   → Zona 1 (Sendero de supervivencia)
+   → Zona 2 (Ruta alternativa, Recurso Limitado (oxígeno, agua, protección))
+🎨 **Atrezo/Equipo**: Traje resistente a la presión del abismo., Brújula que funciona en ausencia de campos magnéticos.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+
+--- ZONA 10 [P] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Tranquilo] (🔊 Crujido sutil, 👃 Vacio, ⚡ Sin viento)
+🔗 **Conexiones**:
+   → Zona 1 (Ruta alternativa, Exposición a Elemento Extremo)
+   → Zona 9 (Camino peligroso)
+🎨 **Atrezo/Equipo**: Cuchillo hecho de diente de criatura abisal.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+🔍 **Evento Extremo**: Eclipse prolongado/sol de medianoche
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO - BIOMA EXTREMO
+=================================================================
+• Total zonas: 10
+• Distribución tamaños: Vast o: 1, Grande: 4, Pequeño: 2, Mediano: 3
+• Zonas con tesoro: 7
+• Zonas con peligro mortal (Severo+): 7
+• Conexiones secretas/inestables: 1
+  Zona 7 → 2 (Portal inestable [SECRETO/INESTABLE])
+
+🎯 PUNTOS DE INTERÉS CRÍTICOS:
+  • Zona 4: **Especial**: Silencio sepulcral que amplifica los latidos (Característica única del bioma)
+  • Zona 6: **Especial**: Silencio sepulcral que amplifica los latidos (Característica única del bioma)
+
+👹 ENCUENTROS EXTREMOS PARA Profundidades Abisales:
+  • Krakens juveniles
+  • Leviatanes durmientes
+  • Criaturas de las profundidades
+  • Espíritus de marineros ahogados
+
+⚙️ REGLAS DE SUPERVIVENCIA SUGERIDAS:
+  Chequeos de Fuerza contra presión
+  Sin visión natural
+  Sonidos viajan más lejos y rápido
+
+        </pre>
+        
+        <div class="actions">
+            <a href="index.html" class="back-button">← Volver al Índice</a>
+            <a href="bioma_profundidades abisales_9821.txt" class="back-button" download>📥 Descargar TXT Original</a>
+        </div>
+        
+        <div class="footer">
+            <p>Generado el 2025-12-09 20:34 • Conversor TXT a HTML</p>
+            <p>Total: 136 líneas • 7415 caracteres</p>
+        </div>
+    </div>
+    
+    <script>
+        // Mejorar la visualización en móvil
+        document.addEventListener('DOMContentLoaded', function() {
+            // Añadir clases a elementos específicos
+            const pre = document.querySelector('pre');
+            const text = pre.textContent;
+            
+            // Resaltar secciones importantes
+            const lines = text.split('\n');
+            let newHTML = '';
+            
+            lines.forEach(line => {
+                if (line.includes('--- ÁREA')) {
+                    newHTML += '<span class="area-title">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔗 **Conexiones**:')) {
+                    newHTML += '<span class="section-header">' + escapeHtml(line) + '</span>\n';
+                } else if (line.startsWith('→')) {
+                    newHTML += '<span class="connection">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('💰 **Tesoro**:')) {
+                    newHTML += '<span class="section-header treasure">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('⚠️  **Peligro**:')) {
+                    newHTML += '<span class="section-header danger">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🎨 **Atrezo**:')) {
+                    newHTML += '<span class="section-header prop">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('📖')) {
+                    newHTML += '<span class="highlight">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔍')) {
+                    newHTML += '<span class="event">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('=================================================================')) {
+                    newHTML += '<span class="comment">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('Para el DJ:')) {
+                    newHTML += '<span class="keyword">' + escapeHtml(line) + '</span>\n';
+                } else {
+                    newHTML += escapeHtml(line) + '\n';
+                }
+            });
+            
+            pre.innerHTML = newHTML;
+            
+            // Hacer que el contenido sea seleccionable pero manteniendo formato
+            pre.style.userSelect = 'text';
+            pre.style.webkitUserSelect = 'text';
+            
+            // Función para escapar HTML
+            function escapeHtml(text) {
+                return text
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📁 Índice de Escenarios de Rol</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2530 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stats-bar {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .category-card {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid #e9ecef;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+        
+        .category-header {
+            background: linear-gradient(135deg, var(--secondary) 0%, #2980b9 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .category-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .category-count {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .file-list {
+            padding: 0;
+        }
+        
+        .file-item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f1f3f4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        
+        .file-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .file-info {
+            flex: 1;
+        }
+        
+        .file-name {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .file-meta {
+            font-size: 0.85rem;
+            color: #6c757d;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .file-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn-view {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .btn-view:hover {
+            background: #2980b9;
+        }
+        
+        .btn-download {
+            background: #f8f9fa;
+            color: var(--primary);
+            border: 1px solid #dee2e6;
+        }
+        
+        .btn-download:hover {
+            background: #e9ecef;
+        }
+        
+        .btn-convert {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .btn-convert:hover {
+            background: #219653;
+        }
+        
+        .html-badge {
+            background: #27ae60;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #6c757d;
+            font-size: 0.9rem;
+            border-top: 1px solid #e9ecef;
+            background: #f8f9fa;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .file-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .file-actions {
+                width: 100%;
+                justify-content: flex-end;
+            }
+            
+            .stats-bar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 20px 15px;
+            }
+            
+            .content {
+                padding: 15px;
+            }
+            
+            .btn {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📁 <span>Índice de Escenarios de Rol</span></h1>
+            <p>Generador de aventuras para directores de juego</p>
+        </div>
+        
+        <div class="stats-bar">
+            <div class="stat">
+                <span class="stat-value">9</span>
+                <span class="stat-label">Archivos TXT</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">4</span>
+                <span class="stat-label">Categorías</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">9</span>
+                <span class="stat-label">Convertidos a HTML</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">2025-12-09</span>
+                <span class="stat-label">Actualizado</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="categories-grid">
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-name">Aventuras</div>
+                        <div class="category-count">1</div>
+                    </div>
+                    <div class="file-list">
+        
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    aventurillas_generadas.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>2.2 KB</span>
+                                    <span>Líneas: 20</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="aventurillas_generadas.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="aventurillas_generadas.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-name">Biomas Extremos</div>
+                        <div class="category-count">2</div>
+                    </div>
+                    <div class="file-list">
+        
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bioma_profundidades abisales_9821.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>7.7 KB</span>
+                                    <span>Líneas: 136</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bioma_profundidades abisales_9821.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bioma_profundidades abisales_9821.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bioma_tierra volcánica_1906.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>9.9 KB</span>
+                                    <span>Líneas: 159</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bioma_tierra volcánica_1906.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bioma_tierra volcánica_1906.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-name">Bosques</div>
+                        <div class="category-count">4</div>
+                    </div>
+                    <div class="file-list">
+        
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bosque_bosque místico_4543.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>12.9 KB</span>
+                                    <span>Líneas: 231</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bosque_bosque místico_4543.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bosque_bosque místico_4543.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bosque_campamento de orcos_8989.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>6.8 KB</span>
+                                    <span>Líneas: 133</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bosque_campamento de orcos_8989.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bosque_campamento de orcos_8989.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bosque_laberinto de brujas_4299.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>9.8 KB</span>
+                                    <span>Líneas: 184</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bosque_laberinto de brujas_4299.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bosque_laberinto de brujas_4299.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    bosque_pantano_2953.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>9.1 KB</span>
+                                    <span>Líneas: 178</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="bosque_pantano_2953.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="bosque_pantano_2953.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-name">Cuevas y Cavernas</div>
+                        <div class="category-count">2</div>
+                    </div>
+                    <div class="file-list">
+        
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    cueva_madriguera colosal_1939.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>6.1 KB</span>
+                                    <span>Líneas: 119</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="cueva_madriguera colosal_1939.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="cueva_madriguera colosal_1939.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                        <div class="file-item">
+                            <div class="file-info">
+                                <div class="file-name">
+                                    cueva_mina abandonada_9999.txt <span class="html-badge">HTML</span>
+                                </div>
+                                <div class="file-meta">
+                                    <span>14.4 KB</span>
+                                    <span>Líneas: 261</span>
+                                    <span>Mod: 2025-12-09</span>
+                                </div>
+                            </div>
+                            <div class="file-actions">
+            
+                                <a href="cueva_mina abandonada_9999.html" class="btn btn-view" target="_blank">📱 Ver HTML</a>
+                
+                                <a href="cueva_mina abandonada_9999.txt" class="btn btn-download" download>📥 TXT</a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Generado automáticamente • Usa los archivos HTML para mejor visualización en móvil</p>
+            <p>Total: 9 archivos • 2025-12-09 20:34</p>
+        </div>
+    </div>
+    
+    <script>
+        async function convertFile(filename) {
+            try {
+                const response = await fetch(filename);
+                const text = await response.text();
+                
+                // Convertir a HTML simple
+                const htmlContent = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${filename} - Convertido</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            line-height: 1.6;
+            background: #f5f7fa;
+        }
+        pre { 
+            background: #1e1e1e; 
+            color: #f8f8f2; 
+            padding: 20px; 
+            border-radius: 10px; 
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #333;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header { 
+            background: #2c3e50; 
+            color: white; 
+            padding: 20px; 
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>${filename}</h1>
+            <p>Versión HTML optimizada para móvil</p>
+        </div>
+        <pre>${text}</pre>
+        <a href="index.html" class="back-button">← Volver al índice</a>
+    </div>
+</body>
+</html>`;
+                
+                // Descargar archivo HTML
+                const htmlFilename = filename.replace('.txt', '.html');
+                const blob = new Blob([htmlContent], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = htmlFilename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                
+                alert(`Archivo ${htmlFilename} generado. Recarga la página para verlo en el índice.`);
+                
+            } catch (error) {
+                alert('Error al convertir el archivo: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

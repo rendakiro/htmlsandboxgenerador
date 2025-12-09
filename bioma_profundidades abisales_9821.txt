@@ -1,0 +1,136 @@
+🌋 GENERADOR DE BIOMAS EXTREMOS - PROFUNDIDADES ABISALES
+=================================================================
+Tipo: Profundidades Abisales
+Características: Presión que aplasta huesos, Oscuridad absoluta (visión 0), Silencio sepulcral que amplifica los latidos, Criaturas bioluminiscentes como única luz
+=================================================================
+⚠️  ADVERTENCIA: Estos biomas son MORTALES sin preparación adecuada.
+Usa 'Especial' y 'Eventos Extremos' como desafíos de supervivencia.
+Las conexiones [SECRETO/INESTABLE] pueden ser trampas o atajos vitales.
+=================================================================
+
+--- ZONA 01 [M] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Advertencia, ⚡ Presencia amenazante)
+🔗 **Conexiones**:
+   → Zona 2 (Ruta principal, conexión obvia)
+   → Zona 7 (Atajo traicionero, Peligro Constante)
+   → Zona 5 (Ruta alternativa, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Red para atrapar criaturas bioluminiscentes.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+🔍 **Pista/Misterio**: Cristal que almacena recuerdos/visiones
+
+--- ZONA 02 [G] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Alienígena] (🔊 Zumbidos no naturales, 👃 Química extraña, ⚡ Gravedad fluctuante)
+🔗 **Conexiones**:
+   → Zona 3 (Ruta principal, conexión obvia)
+   → Zona 7 (Sendero de supervivencia, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 5 (Ruta alternativa, Peligro Constante)
+   → Zona 10 (Atajo traicionero)
+🎨 **Atrezo/Equipo**: Mapa de corrientes abisales.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Letal (Presión que aplasta como una prensa hidráulica.)
+🔍 **Evento Extremo**: Erupción de energía telúrica/mágica
+
+--- ZONA 03 [G] ---
+📖 Bosque de chimeneas hidrotermales. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Muerte, ⚡ Ambiente opresivo)
+🔗 **Conexiones**:
+   → Zona 4 (Ruta principal, conexión obvia)
+   → Zona 2 (Atajo traicionero, Exposición a Elemento Extremo)
+🎨 **Atrezo/Equipo**: Cuchillo hecho de diente de criatura abisal., Arpón con cuerda de seda de gusano de las profundidades., Red para atrapar criaturas bioluminiscentes.
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+🔍 **Pista/Misterio**: Brizna de hierba en un lugar imposible
+
+--- ZONA 04 [M] ---
+📖 Bosque de chimeneas hidrotermales. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Muerte, ⚡ Señales de peligro)
+🔗 **Conexiones**:
+   → Zona 5 (Ruta principal, conexión obvia)
+   → Zona 6 (Sendero de supervivencia, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 1 (Atajo traicionero)
+   → Zona 2 (Ruta alternativa)
+🎨 **Atrezo/Equipo**: **Especial**: Silencio sepulcral que amplifica los latidos
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Letal (Presión que aplasta como una prensa hidráulica.)
+
+--- ZONA 05 [G] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Hostil] (🔊 Rugido del viento, 👃 Peligro, ⚡ Ambiente opresivo)
+🔗 **Conexiones**:
+   → Zona 6 (Ruta principal, conexión obvia)
+   → Zona 10 (Ruta alternativa)
+🎨 **Atrezo/Equipo**: Lámpara que funciona con presión hidrostática.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Severo (Falta de oxígeno incluso con suministro de aire.)
+
+--- ZONA 06 [V] ---
+📖 Corriente termal que emite calor en la oscuridad. [Ambientación: Alienígena] (🔊 Ritmos orgánicos, 👃 Aromas desconocidos, ⚡ Gravedad fluctuante)
+🔗 **Conexiones**:
+   → Zona 7 (Ruta principal, conexión obvia)
+   → Zona 4 (Sendero de supervivencia, Solo Pasable en Condiciones Específicas)
+🎨 **Atrezo/Equipo**: Prisma que divides la bioluminiscencia en colores., Botella con agua de las profundidades., **Especial**: Silencio sepulcral que amplifica los latidos
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Extremo (Criatura abisal que atrae a sus presas con bioluminiscencia.)
+
+--- ZONA 07 [P] ---
+📖 Fosa donde la luz nunca llegó. [Ambientación: Hostil] (🔊 Gritos lejanos, 👃 Peligro, ⚡ Señales de peligro)
+🔗 **Conexiones**:
+   → Zona 8 (Ruta principal, conexión obvia)
+   → Zona 4 (Ruta alternativa, Recurso Limitado (oxígeno, agua, protección))
+   → Zona 2 (Portal inestable [SECRETO/INESTABLE])
+🎨 **Atrezo/Equipo**: Arpón con cuerda de seda de gusano de las profundidades.
+💰 **Tesoro**: Nada
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+
+--- ZONA 08 [G] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Extremo] (🔊 Grito del vacío, 👃 Elemento puro, ⚡ Esencia materializada)
+🔗 **Conexiones**:
+   → Zona 9 (Ruta principal, conexión obvia)
+   → Zona 7 (Sendero de supervivencia, Navegación Difícil)
+🎨 **Atrezo/Equipo**: Nada que no sea el ambiente hostil.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Extremo (Criatura abisal que atrae a sus presas con bioluminiscencia.)
+🔍 **Evento Extremo**: Aurora de partículas mágicas/radiactivas
+
+--- ZONA 09 [M] ---
+📖 Fosa donde la luz nunca llegó. [Ambientación: Extremo] (🔊 Rugido del elemento, 👃 Fuerza primigenia, ⚡ Poder visible)
+🔗 **Conexiones**:
+   → Zona 10 (Ruta principal, conexión obvia)
+   → Zona 1 (Sendero de supervivencia)
+   → Zona 2 (Ruta alternativa, Recurso Limitado (oxígeno, agua, protección))
+🎨 **Atrezo/Equipo**: Traje resistente a la presión del abismo., Brújula que funciona en ausencia de campos magnéticos.
+💰 **Tesoro**: Pequeño (Perla de las profundidades, diente de criatura abisal, coral bioluminiscente)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+
+--- ZONA 10 [P] ---
+📖 Ventana a mantos terrestres más profundos. [Ambientación: Tranquilo] (🔊 Crujido sutil, 👃 Vacio, ⚡ Sin viento)
+🔗 **Conexiones**:
+   → Zona 1 (Ruta alternativa, Exposición a Elemento Extremo)
+   → Zona 9 (Camino peligroso)
+🎨 **Atrezo/Equipo**: Cuchillo hecho de diente de criatura abisal.
+💰 **Tesoro**: Grande (Tesoro de ciudad sumergida, huevo de kraken, corazón de criatura de las profundidades)
+☠️  **Peligro**: Nada (Condiciones estables pero incómodas.)
+🔍 **Evento Extremo**: Eclipse prolongado/sol de medianoche
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO - BIOMA EXTREMO
+=================================================================
+• Total zonas: 10
+• Distribución tamaños: Vast o: 1, Grande: 4, Pequeño: 2, Mediano: 3
+• Zonas con tesoro: 7
+• Zonas con peligro mortal (Severo+): 7
+• Conexiones secretas/inestables: 1
+  Zona 7 → 2 (Portal inestable [SECRETO/INESTABLE])
+
+🎯 PUNTOS DE INTERÉS CRÍTICOS:
+  • Zona 4: **Especial**: Silencio sepulcral que amplifica los latidos (Característica única del bioma)
+  • Zona 6: **Especial**: Silencio sepulcral que amplifica los latidos (Característica única del bioma)
+
+👹 ENCUENTROS EXTREMOS PARA Profundidades Abisales:
+  • Krakens juveniles
+  • Leviatanes durmientes
+  • Criaturas de las profundidades
+  • Espíritus de marineros ahogados
+
+⚙️ REGLAS DE SUPERVIVENCIA SUGERIDAS:
+  Chequeos de Fuerza contra presión
+  Sin visión natural
+  Sonidos viajan más lejos y rápido

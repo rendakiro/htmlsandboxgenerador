@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>bosque_bosque místico_4543 - Escenario de Rol</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .container {
+            max-width: 100%;
+            padding: 20px 15px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2530 100%);
+            color: white;
+            padding: 25px 20px;
+            margin: -20px -15px 25px -15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .metadata {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+        
+        .metadata-item {
+            background: rgba(255,255,255,0.1);
+            padding: 5px 12px;
+            border-radius: 15px;
+        }
+        
+        pre {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #333;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        /* Estilos para el contenido dentro del pre */
+        pre .section-header {
+            color: #569cd6;
+            font-weight: bold;
+            display: block;
+            margin: 15px 0 5px 0;
+            font-size: 1.1em;
+        }
+        
+        pre .area-title {
+            color: #4ec9b0;
+            font-weight: bold;
+            display: block;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+        
+        pre .connection {
+            color: #9cdcfe;
+        }
+        
+        pre .treasure {
+            color: #ffd700;
+        }
+        
+        pre .danger {
+            color: #f48771;
+        }
+        
+        pre .prop {
+            color: #ce9178;
+        }
+        
+        pre .event {
+            color: #c586c0;
+        }
+        
+        pre .highlight {
+            color: #d7ba7d;
+            font-weight: bold;
+        }
+        
+        pre .comment {
+            color: #6a9955;
+        }
+        
+        pre .string {
+            color: #ce9178;
+        }
+        
+        pre .keyword {
+            color: #569cd6;
+        }
+        
+        pre .number {
+            color: #b5cea8;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .header {
+                padding: 20px 15px;
+                margin: -15px -10px 20px -10px;
+            }
+            
+            .title {
+                font-size: 1.5rem;
+            }
+            
+            pre {
+                padding: 15px;
+                font-size: 13px;
+                margin: 15px -10px;
+                border-radius: 0;
+            }
+            
+            .metadata {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            pre {
+                font-size: 12px;
+                padding: 12px;
+            }
+            
+            .actions {
+                flex-direction: column;
+            }
+            
+            .back-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">bosque_bosque místico_4543</h1>
+        <p class="subtitle">📄 Archivo de escenario para juegos de rol</p>
+        <div class="metadata">
+            <span class="metadata-item">📁 TXT Original</span>
+            <span class="metadata-item">📱 Optimizado para móvil</span>
+            <span class="metadata-item">🔄 Convertido automáticamente</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <pre>
+🌳 GENERADOR DE BOSQUES VECTORIAL - BOSQUE MÍSTICO
+=================================================================
+Tipo: Bosque Místico
+Características: Árboles parlantes, Criaturas feéricas, Puertas dimensionales entre árboles
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- ÁREA 01 [Z] ---
+📖 Claro con un estanque que muestra sueños. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Flores silvestres, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 2 (Sendero principal, conexión obvia)
+   → Área 12 (Sendero lateral)
+   → Área 14 (Camino de animales, Suelo Resbaladizo)
+🎨 **Atrezo**: Sendero de piedras que brillan en la oscuridad.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+
+--- ÁREA 02 [C] ---
+📖 Sendero serpentino entre árboles que susurran secretos antiguos. [Ambientación: Luminoso] (🔊 Canto de pájaros, 👃 Flores silvestres, ⚡ Polen dorado flotando)
+🔗 **Conexiones**:
+   → Área 3 (Sendero principal, conexión obvia)
+   → Área 1 (Rastro poco definido)
+   → Área 16 (Camino de animales)
+🎨 **Atrezo**: Piedra rúnica que emite un zumbido suave.
+💰 **Tesoro**: Mediano (Instrumento encantado, corona de flores eternas, espejo de hadas)
+⚠️  **Peligro**: Ambiental (Zona de esporas venenosas o polen alérgico.)
+
+--- ÁREA 03 [C] ---
+📖 Arboleda de cerezos en flor eterna. [Ambientación: Encantado] (🔊 Campanas lejanas, 👃 Especias olvidadas, ⚡ Puertas que aparecen y desaparecen)
+🔗 **Conexiones**:
+   → Área 4 (Sendero principal, conexión obvia)
+   → Área 15 (Atajo entre árboles, Requiere Trepar)
+   → Área 9 (Camino de animales)
+   → Área 6 (Atajo entre árboles, Suelo Resbaladizo)
+🎨 **Atrezo**: Fuente cuyas aguas tienen sabor a recuerdos.
+💰 **Tesoro**: Mediano (Instrumento encantado, corona de flores eternas, espejo de hadas)
+⚠️  **Peligro**: Ambiental (Zona de esporas venenosas o polen alérgico.)
+🔍 **Pista/Misterio**: Viento que siempre sopla hacia un lugar específico
+
+--- ÁREA 04 [C] ---
+📖 Claro con un estanque que muestra sueños. [Ambientación: Encantado] (🔊 Murmullos antiguos, 👃 Vainilla mágica, ⚡ Puertas que aparecen y desaparecen)
+🔗 **Conexiones**:
+   → Área 5 (Sendero principal, conexión obvia)
+   → Área 16 (Sendero cubierto por enredaderas [SECRETO])
+   → Área 3 (Rastro poco definido)
+🎨 **Atrezo**: Arbusto que produce frutos de cristal., Instrumento musical abandonado que toca solo., Espejo en un claro que muestra deseos.
+💰 **Tesoro**: Mediano (Instrumento encantado, corona de flores eternas, espejo de hadas)
+⚠️  **Peligro**: Mortal (Árbol caído con pinchos afilados que se dispara con mecanismo.)
+
+--- ÁREA 05 [C] ---
+📖 Círculo de piedras que vibran al tacto. [Ambientación: Encantado] (🔊 Risas etéreas, 👃 Especias olvidadas, ⚡ Objetos que flotan)
+🔗 **Conexiones**:
+   → Área 6 (Sendero principal, conexión obvia)
+   → Área 15 (Puente natural oculto [SECRETO])
+   → Área 19 (Camino de animales)
+   → Área 12 (Atajo entre árboles, Requiere Trepar)
+🎨 **Atrezo**: Espejo en un claro que muestra deseos.
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 06 [C] ---
+📖 Claro iluminado por luz de luna perpetua, con flores que brillan. [Ambientación: Viviente] (🔊 Susurros de hojas, 👃 Flores nocturnas, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 7 (Sendero principal, conexión obvia)
+   → Área 19 (Rastro poco definido, Bloqueado por zarzas)
+   → Área 13 (Camino de animales)
+   → Área 18 (Túnel de raíces [SECRETO])
+🎨 **Atrezo**: Sendero de piedras que brillan en la oscuridad., Columpio de enredaderas que se mueve solo.
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 07 [C] ---
+📖 Círculo de robles milenarios que forman una cámara natural. [Ambientación: Luminoso] (🔊 Susurro de hojas, 👃 Tierra húmeda, ⚡ Polen dorado flotando)
+🔗 **Conexiones**:
+   → Área 8 (Sendero principal, conexión obvia)
+   → Área 10 (Sendero cubierto por enredaderas [SECRETO])
+🎨 **Atrezo**: Sendero de piedras que brillan en la oscuridad.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Común (Foso cubierto con ramas y hojas (2-3 metros de profundidad).)
+
+--- ÁREA 08 [C] ---
+📖 Fuente de agua cristalina que refleja estrellas de día. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Flores silvestres, ⚡ Rayos de sol entre hojas)
+🔗 **Conexiones**:
+   → Área 9 (Sendero principal, conexión obvia)
+   → Área 6 (Atajo entre árboles)
+   → Área 4 (Sendero lateral, Cruza zona peligrosa)
+🎨 **Atrezo**: Fuente cuyas aguas tienen sabor a recuerdos., Árbol con rostro tallado que da consejos.
+💰 **Tesoro**: Mediano (Instrumento encantado, corona de flores eternas, espejo de hadas)
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+
+--- ÁREA 09 [C] ---
+📖 Puente de raíces vivas sobre un arroyo cantarín. [Ambientación: Encantado] (🔊 Murmullos antiguos, 👃 Especias olvidadas, ⚡ Puertas que aparecen y desaparecen)
+🔗 **Conexiones**:
+   → Área 10 (Sendero principal, conexión obvia)
+   → Área 2 (Atajo entre árboles, Vadeo de arroyo)
+   → Área 19 (Túnel de raíces [SECRETO])
+🎨 **Atrezo**: Estanque que refleja el cielo estrellado de día., Piedra rúnica que emite un zumbido suave.
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+
+--- ÁREA 10 [Z] ---
+📖 Sendero de musgo luminiscente. [Ambientación: Viviente] (🔊 Susurros de hojas, 👃 Olor a tormenta, ⚡ Senderos que cambian)
+🔗 **Conexiones**:
+   → Área 11 (Sendero principal, conexión obvia)
+   → Área 12 (Atajo entre árboles)
+   → Área 14 (Atajo entre árboles, Suelo Resbaladizo)
+🎨 **Atrezo**: Sendero de piedras que brillan en la oscuridad., Arbusto que produce frutos de cristal., Instrumento musical abandonado que toca solo.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+🔍 **Evento**: Lluvia de pétalos mágicos con efectos aleatorios
+
+--- ÁREA 11 [C] ---
+📖 Área donde el tiempo pasa más lento o más rápido. [Ambientación: Encantado] (🔊 Murmullos antiguos, 👃 Azufre dulce, ⚡ Puertas que aparecen y desaparecen)
+🔗 **Conexiones**:
+   → Área 12 (Sendero principal, conexión obvia)
+   → Área 19 (Rastro poco definido)
+   → Área 4 (Camino de animales)
+🎨 **Atrezo**: Fuente cuyas aguas tienen sabor a recuerdos.
+💰 **Tesoro**: Grande (Cofre de robles con objetos mágicos, fuente de juventud temporal)
+⚠️  **Peligro**: Peligrosa (Red camuflada que atrapa y cuelga a los intrusos.)
+🔍 **Pista/Misterio**: Sombras que señalan una dirección
+
+--- ÁREA 12 [Z] ---
+📖 Fuente de agua cristalina que refleja estrellas de día. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Carroña, ⚡ Sombras que se mueven)
+🔗 **Conexiones**:
+   → Área 13 (Sendero principal, conexión obvia)
+   → Área 1 (Atajo entre árboles)
+   → Área 16 (Rastro poco definido)
+🎨 **Atrezo**: Campana de viento hecha de huesos de ave.
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+🔍 **Pista/Misterio**: Círculo de piedras donde no crece nada
+
+--- ÁREA 13 [Z] ---
+📖 Sendero de musgo luminiscente. [Ambientación: Viviente] (🔊 Latidos de raíces, 👃 Olor a tormenta, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 14 (Sendero principal, conexión obvia)
+   → Área 12 (Sendero lateral)
+🎨 **Atrezo**: Fuente cuyas aguas tienen sabor a recuerdos., Instrumento musical abandonado que toca solo.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 14 [C] ---
+📖 Círculo de piedras que vibran al tacto. [Ambientación: Corrupto] (🔊 Latidos de corazón, 👃 Podredumbre arcana, ⚡ Suelo que palpita)
+🔗 **Conexiones**:
+   → Área 15 (Sendero principal, conexión obvia)
+   → Área 1 (Atajo entre árboles)
+   → Área 13 (Atajo entre árboles, Caminata Larga)
+   → Área 8 (Sendero lateral)
+🎨 **Atrezo**: Columpio de enredaderas que se mueve solo.
+💰 **Tesoro**: Mediano (Instrumento encantado, corona de flores eternas, espejo de hadas)
+⚠️  **Peligro**: Ambiental (Zona de esporas venenosas o polen alérgico.)
+🔍 **Pista/Misterio**: Marcas de garra a 3 metros de altura
+
+--- ÁREA 15 [Z] ---
+📖 Claro iluminado por luz de luna perpetua, con flores que brillan. [Ambientación: Encantado] (🔊 Risas etéreas, 👃 Vainilla mágica, ⚡ Objetos que flotan)
+🔗 **Conexiones**:
+   → Área 16 (Sendero principal, conexión obvia)
+   → Área 19 (Rastro poco definido)
+🎨 **Atrezo**: Sendero de piedras que brillan en la oscuridad.
+💰 **Tesoro**: Único (Semilla de árbol del mundo, lágrima de espíritu del bosque, campana del amanecer)
+⚠️  **Peligro**: Ambiental (Zona de esporas venenosas o polen alérgico.)
+
+--- ÁREA 16 [Z] ---
+📖 Círculo de piedras que vibran al tacto. [Ambientación: Viviente] (🔊 Latidos de raíces, 👃 Flores nocturnas, ⚡ Plantas que siguen)
+🔗 **Conexiones**:
+   → Área 17 (Sendero principal, conexión obvia)
+   → Área 1 (Túnel de raíces [SECRETO])
+   → Área 6 (Rastro poco definido)
+   → Área 7 (Pasaje entre arbustos [SECRETO])
+🎨 **Atrezo**: Campana de viento hecha de huesos de ave., Sendero de piedras que brillan en la oscuridad.
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 17 [Z] ---
+📖 Círculo de robles milenarios que forman una cámara natural. [Ambientación: Encantado] (🔊 Risas etéreas, 👃 Especias olvidadas, ⚡ Puertas que aparecen y desaparecen)
+🔗 **Conexiones**:
+   → Área 18 (Sendero principal, conexión obvia)
+   → Área 6 (Sendero lateral)
+   → Área 11 (Rastro poco definido)
+🎨 **Atrezo**: Piedra rúnica que emite un zumbido suave., Instrumento musical abandonado que toca solo.
+💰 **Tesoro**: Grande (Cofre de robles con objetos mágicos, fuente de juventud temporal)
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+
+--- ÁREA 18 [C] ---
+📖 Área donde el tiempo pasa más lento o más rápido. [Ambientación: Luminoso] (🔊 Canto de pájaros, 👃 Resina de pino, ⚡ Rayos de sol entre hojas)
+🔗 **Conexiones**:
+   → Área 19 (Sendero principal, conexión obvia)
+   → Área 2 (Sendero lateral, Requiere Trepar)
+🎨 **Atrezo**: Árbol con rostro tallado que da consejos., Arbusto que produce frutos de cristal., Piedra rúnica que emite un zumbido suave.
+💰 **Tesoro**: Grande (Cofre de robles con objetos mágicos, fuente de juventud temporal)
+⚠️  **Peligro**: Fácil (Rama baja que golpea al pasar, causa aturdimiento menor.)
+🔍 **Evento**: Los alimentos se pudren mágicamente
+
+--- ÁREA 19 [C] ---
+📖 Claro con un estanque que muestra sueños. [Ambientación: Encantado] (🔊 Campanas lejanas, 👃 Vainilla mágica, ⚡ Luces danzantes)
+🔗 **Conexiones**:
+   → Área 7 (Rastro poco definido)
+🎨 **Atrezo**: Instrumento musical abandonado que toca solo., **Especial**: Criaturas feéricas
+💰 **Tesoro**: Pequeño (Gema natural, rama mágica, fruto dorado)
+⚠️  **Peligro**: Mortal (Árbol caído con pinchos afilados que se dispara con mecanismo.)
+🔍 **Pista/Misterio**: Marcas de garra a 3 metros de altura
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total áreas: 19
+• Distribución tamaños: Zona arbolada densa: 7, Claro pequeño: 2, Claro grande: 3, Claro mediano: 7
+• Áreas con tesoro: 15
+• Áreas con peligro: 15
+• Conexiones secretas: 7
+  Área 4 → 16 (Sendero cubierto por enredaderas [SECRETO])
+  Área 5 → 15 (Puente natural oculto [SECRETO])
+  Área 6 → 18 (Túnel de raíces [SECRETO])
+  Área 7 → 10 (Sendero cubierto por enredaderas [SECRETO])
+  Área 9 → 19 (Túnel de raíces [SECRETO])
+  Área 16 → 1 (Túnel de raíces [SECRETO])
+  Área 16 → 7 (Pasaje entre arbustos [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+  • Área 15: Único (Semilla de árbol del mundo, lágrima de espíritu del bosque, campana del amanecer)
+  • Área 19: **Especial**: Criaturas feéricas
+
+🎭 IDEAS DE ENCUENTROS PARA Bosque Místico:
+  • Hadas traviesas
+  • Espíritus del bosque
+  • Guardianes antiguos
+  • Animales parlantes
+
+        </pre>
+        
+        <div class="actions">
+            <a href="index.html" class="back-button">← Volver al Índice</a>
+            <a href="bosque_bosque místico_4543.txt" class="back-button" download>📥 Descargar TXT Original</a>
+        </div>
+        
+        <div class="footer">
+            <p>Generado el 2025-12-09 20:34 • Conversor TXT a HTML</p>
+            <p>Total: 231 líneas • 12290 caracteres</p>
+        </div>
+    </div>
+    
+    <script>
+        // Mejorar la visualización en móvil
+        document.addEventListener('DOMContentLoaded', function() {
+            // Añadir clases a elementos específicos
+            const pre = document.querySelector('pre');
+            const text = pre.textContent;
+            
+            // Resaltar secciones importantes
+            const lines = text.split('\n');
+            let newHTML = '';
+            
+            lines.forEach(line => {
+                if (line.includes('--- ÁREA')) {
+                    newHTML += '<span class="area-title">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔗 **Conexiones**:')) {
+                    newHTML += '<span class="section-header">' + escapeHtml(line) + '</span>\n';
+                } else if (line.startsWith('→')) {
+                    newHTML += '<span class="connection">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('💰 **Tesoro**:')) {
+                    newHTML += '<span class="section-header treasure">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('⚠️  **Peligro**:')) {
+                    newHTML += '<span class="section-header danger">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🎨 **Atrezo**:')) {
+                    newHTML += '<span class="section-header prop">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('📖')) {
+                    newHTML += '<span class="highlight">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('🔍')) {
+                    newHTML += '<span class="event">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('=================================================================')) {
+                    newHTML += '<span class="comment">' + escapeHtml(line) + '</span>\n';
+                } else if (line.includes('Para el DJ:')) {
+                    newHTML += '<span class="keyword">' + escapeHtml(line) + '</span>\n';
+                } else {
+                    newHTML += escapeHtml(line) + '\n';
+                }
+            });
+            
+            pre.innerHTML = newHTML;
+            
+            // Hacer que el contenido sea seleccionable pero manteniendo formato
+            pre.style.userSelect = 'text';
+            pre.style.webkitUserSelect = 'text';
+            
+            // Función para escapar HTML
+            function escapeHtml(text) {
+                return text
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;");
+            }
+        });
+    </script>
+</body>
+</html>

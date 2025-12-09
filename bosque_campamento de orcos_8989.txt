@@ -1,0 +1,133 @@
+🌳 GENERADOR DE BOSQUES VECTORIAL - CAMPAMENTO DE ORCOS
+=================================================================
+Tipo: Campamento de Orcos
+Características: Empalizas, Hornos de forja, Jaulas de prisioneros, Tótems de guerra
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- ÁREA 01 [C] ---
+📖 Jaulas de prisioneros colgando de árboles. [Ambientación: Viviente] (🔊 Respiración del bosque, 👃 Savia fresca, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 2 (Sendero principal, conexión obvia)
+   → Área 8 (Atajo entre árboles, Bloqueado por zarzas)
+   → Área 3 (Sendero lateral)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Peligrosa (Tronco con pinchos que oscila al ser activado.)
+
+--- ÁREA 02 [C] ---
+📖 Taller de máquinas de asedio primitivas. [Ambientación: Encantado] (🔊 Risas etéreas, 👃 Especias olvidadas, ⚡ Luces danzantes)
+🔗 **Conexiones**:
+   → Área 3 (Sendero principal, conexión obvia)
+   → Área 6 (Túnel de raíces [SECRETO])
+   → Área 10 (Camino de animales, Suelo Resbaladizo)
+🎨 **Atrezo**: Arma rota en una piedra de afilar.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Mortal (Área minada con trampas explosivas primitivas.)
+🔍 **Evento**: Un susurro antiguo revela un secreto del bosque
+
+--- ÁREA 03 [C] ---
+📖 Almacén de armas y armaduras robadas. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Tierra podrida, ⚡ Niebla espesa)
+🔗 **Conexiones**:
+   → Área 4 (Sendero principal, conexión obvia)
+   → Área 1 (Rastro poco definido)
+   → Área 9 (Túnel de raíces [SECRETO])
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Único (Arma ancestral orca, estandarte mágico de batalla)
+⚠️  **Peligro**: Fácil (Trampa de estaca en foso poco profundo.)
+
+--- ÁREA 04 [C] ---
+📖 Cocina comunal con fuegos y espetones. [Ambientación: Corrupto] (🔊 Latidos de corazón, 👃 Pústulas, ⚡ Árboles retorciéndose)
+🔗 **Conexiones**:
+   → Área 5 (Sendero principal, conexión obvia)
+   → Área 7 (Atajo entre árboles, Requiere Trepar)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Tambor de guerra con piel tensada.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Mortal (Área minada con trampas explosivas primitivas.)
+
+--- ÁREA 05 [C] ---
+📖 Puesto de caza con trampas y armas primitivas. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Carroña, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 6 (Sendero principal, conexión obvia)
+   → Área 7 (Rastro poco definido)
+   → Área 1 (Puente natural oculto [SECRETO])
+   → Área 8 (Camino de animales)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Peligrosa (Tronco con pinchos que oscila al ser activado.)
+🔍 **Pista/Misterio**: Diario de un desaparecido con la última página arrancada
+
+--- ÁREA 06 [C] ---
+📖 Corral con bestias de carga y montura. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Moho, ⚡ Niebla espesa)
+🔗 **Conexiones**:
+   → Área 7 (Sendero principal, conexión obvia)
+   → Área 8 (Camino de animales)
+   → Área 9 (Atajo entre árboles, Cruza zona peligrosa)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Tótem decorado con dientes y garras.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Común (Red con pesas que cae desde árboles.)
+
+--- ÁREA 07 [Z] ---
+📖 Cocina comunal con fuegos y espetones. [Ambientación: Corrupto] (🔊 Latidos de corazón, 👃 Sangre seca, ⚡ Suelo que palpita)
+🔗 **Conexiones**:
+   → Área 8 (Sendero principal, conexión obvia)
+   → Área 2 (Camino de animales)
+   → Área 10 (Camino de animales)
+🎨 **Atrezo**: Forja portátil con carbón aún caliente., Montón de huesos masticados., Barril de cerveza agria medio consumido.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+🔍 **Pista/Misterio**: Camino que solo aparece a la luz de la luna
+
+--- ÁREA 08 [C] ---
+📖 Sendero principal patrullado por orcos. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Moho, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 9 (Sendero principal, conexión obvia)
+   → Área 10 (Camino de animales, Vadeo de arroyo)
+   → Área 3 (Rastro poco definido, Vadeo de arroyo)
+🎨 **Atrezo**: Armadura oxidada con el emblema de un enemigo., Montón de huesos masticados.
+💰 **Tesoro**: Mediano (Cofre de tributos, equipo de aventurero capturado)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 09 [C] ---
+📖 Corral con bestias de carga y montura. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Carroña, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 10 (Sendero principal, conexión obvia)
+   → Área 2 (Camino de animales)
+   → Área 4 (Sendero cubierto por enredaderas [SECRETO])
+🎨 **Atrezo**: Estandarte hecho de pieles cosidas.
+💰 **Tesoro**: Pequeño (Botín de saqueo menor, armas de calidad decente)
+⚠️  **Peligro**: Fácil (Trampa de estaca en foso poco profundo.)
+
+--- ÁREA 10 [C] ---
+📖 Área de entrenamiento con blancos de práctica. [Ambientación: Corrupto] (🔊 Gritos ahogados, 👃 Podredumbre arcana, ⚡ Nubes de insectos)
+🔗 **Conexiones**:
+   → Área 8 (Rastro poco definido)
+   → Área 9 (Sendero lateral)
+🎨 **Atrezo**: Estandarte hecho de pieles cosidas.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total áreas: 10
+• Distribución tamaños: Claro pequeño: 2, Claro mediano: 5, Zona arbolada densa: 1, Claro grande: 2
+• Áreas con tesoro: 9
+• Áreas con peligro: 7
+• Conexiones secretas: 4
+  Área 2 → 6 (Túnel de raíces [SECRETO])
+  Área 3 → 9 (Túnel de raíces [SECRETO])
+  Área 5 → 1 (Puente natural oculto [SECRETO])
+  Área 9 → 4 (Sendero cubierto por enredaderas [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+  • Área 3: Único (Arma ancestral orca, estandarte mágico de batalla)
+
+🎭 IDEAS DE ENCUENTROS PARA Campamento de Orcos:
+  • Patrullas orcas
+  • Chamanes orcos
+  • Bestias de guerra
+  • Prisioneros desesperados

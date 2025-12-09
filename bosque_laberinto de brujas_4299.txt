@@ -1,0 +1,184 @@
+🌳 GENERADOR DE BOSQUES VECTORIAL - LABERINTO DE BRUJAS
+=================================================================
+Tipo: Laberinto de Brujas
+Características: Círculos de hongos, Calderos humeantes, Escobas voladoras, Gatos negros
+=================================================================
+Para el DJ: Usa 'Especial', 'Eventos' y 'Pistas' como ganchos
+para puzzles, encuentros e historias. Las conexiones [SECRETO]
+son para exploración adicional o atajos.
+=================================================================
+
+--- ÁREA 01 [Z] ---
+📖 Claro donde bailan luces will-o'-the-wisp. [Ambientación: Oscuro] (🔊 Aullidos lejanos, 👃 Tierra podrida, ⚡ Niebla espesa)
+🔗 **Conexiones**:
+   → Área 2 (Sendero principal, conexión obvia)
+   → Área 4 (Pasaje entre arbustos [SECRETO])
+🎨 **Atrezo**: Cesta de hierbas mágicas recién recolectadas., Espejo que habla pero solo dice mentiras.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Peligrosa (Área con gravedad alterada.)
+🔍 **Evento**: Un río aparece donde antes no había
+
+--- ÁREA 02 [C] ---
+📖 Biblioteca de grimorios protegida por gatos negros. [Ambientación: Luminoso] (🔊 Canto de pájaros, 👃 Resina de pino, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 3 (Sendero principal, conexión obvia)
+   → Área 15 (Camino de animales, Bloqueado por zarzas)
+🎨 **Atrezo**: Espejo que habla pero solo dice mentiras.
+💰 **Tesoro**: Mediano (Grimorio de hechizos menores, caldero mágico, escoba voladora)
+⚠️  **Peligro**: Común (Planta que escupe líquido paralizante.)
+
+--- ÁREA 03 [Z] ---
+📖 Cabaña de madera torcida con humo de colores saliendo de la chimenea. [Ambientación: Viviente] (🔊 Latidos de raíces, 👃 Olor a tormenta, ⚡ Plantas que siguen)
+🔗 **Conexiones**:
+   → Área 4 (Sendero principal, conexión obvia)
+   → Área 9 (Sendero lateral)
+🎨 **Atrezo**: Grimorio abierto en una página importante., Máscara ritual con plumas y piedras.
+💰 **Tesoro**: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+⚠️  **Peligro**: Peligrosa (Área con gravedad alterada.)
+
+--- ÁREA 04 [Z] ---
+📖 Jardín de hierbas mágicas con plantas que se mueven solas. [Ambientación: Viviente] (🔊 Susurros de hojas, 👃 Olor a tormenta, ⚡ Plantas que siguen)
+🔗 **Conexiones**:
+   → Área 5 (Sendero principal, conexión obvia)
+   → Área 15 (Sendero lateral)
+🎨 **Atrezo**: Reloj de arena que fluye hacia arriba.
+💰 **Tesoro**: Pequeño (Poción útil, ingrediente raro, talismán protector)
+⚠️  **Peligro**: Peligrosa (Área con gravedad alterada.)
+
+--- ÁREA 05 [Z] ---
+📖 Fuente cuyas aguas tienen propiedades curativas o venenosas. [Ambientación: Viviente] (🔊 Respiración del bosque, 👃 Olor a tormenta, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 6 (Sendero principal, conexión obvia)
+   → Área 2 (Túnel de raíces [SECRETO])
+   → Área 12 (Camino de animales, Bloqueado por zarzas)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Común (Planta que escupe líquido paralizante.)
+🔍 **Evento**: Espejismos de caminos que no existen
+
+--- ÁREA 06 [Z] ---
+📖 Muro de zarzas vivas que se abre con palabras clave. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Resina de pino, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 7 (Sendero principal, conexión obvia)
+   → Área 12 (Puente natural oculto [SECRETO])
+   → Área 15 (Rastro poco definido)
+🎨 **Atrezo**: Máscara ritual con plumas y piedras., Seta gigante que sirve de mesa o taburete.
+💰 **Tesoro**: Mediano (Grimorio de hechizos menores, caldero mágico, escoba voladora)
+⚠️  **Peligro**: Ambiental (Niebra que borra recuerdos recientes.)
+🔍 **Pista/Misterio**: Reloj detenido a la misma hora en todo el bosque
+
+--- ÁREA 07 [C] ---
+📖 Estanque para escudriñar el futuro cubierto de lirios. [Ambientación: Luminoso] (🔊 Canto de pájaros, 👃 Resina de pino, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 8 (Sendero principal, conexión obvia)
+   → Área 10 (Rastro poco definido, Requiere Trepar)
+   → Área 3 (Pasaje entre arbustos [SECRETO])
+   → Área 9 (Sendero lateral)
+🎨 **Atrezo**: Gato negro que observa con inteligencia inusual.
+💰 **Tesoro**: Mediano (Grimorio de hechizos menores, caldero mágico, escoba voladora)
+⚠️  **Peligro**: Ambiental (Niebra que borra recuerdos recientes.)
+
+--- ÁREA 08 [Z] ---
+📖 Biblioteca de grimorios protegida por gatos negros. [Ambientación: Viviente] (🔊 Susurros de hojas, 👃 Savia fresca, ⚡ Senderos que cambian)
+🔗 **Conexiones**:
+   → Área 9 (Sendero principal, conexión obvia)
+   → Área 1 (Rastro poco definido)
+🎨 **Atrezo**: Varita de sauce que todavía conserva magia.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Peligrosa (Área con gravedad alterada.)
+🔍 **Evento**: Todos los sonidos desaparecen excepto los latidos del corazón
+
+--- ÁREA 09 [Z] ---
+📖 Muro de zarzas vivas que se abre con palabras clave. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Flores silvestres, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 10 (Sendero principal, conexión obvia)
+   → Área 7 (Rastro poco definido, Suelo Resbaladizo)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Pequeño (Poción útil, ingrediente raro, talismán protector)
+⚠️  **Peligro**: Mortal (Estatuas vivientes que atacan intrusos.)
+
+--- ÁREA 10 [C] ---
+📖 Claro donde bailan luces will-o'-the-wisp. [Ambientación: Viviente] (🔊 Susurros de hojas, 👃 Olor a tormenta, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 11 (Sendero principal, conexión obvia)
+   → Área 4 (Túnel de raíces [SECRETO])
+🎨 **Atrezo**: Varita de sauce que todavía conserva magia.
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Mortal (Estatuas vivientes que atacan intrusos.)
+
+--- ÁREA 11 [C] ---
+📖 Muro de zarzas vivas que se abre con palabras clave. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Resina de pino, ⚡ Rayos de sol entre hojas)
+🔗 **Conexiones**:
+   → Área 12 (Sendero principal, conexión obvia)
+   → Área 14 (Sendero lateral)
+   → Área 2 (Atajo entre árboles)
+🎨 **Atrezo**: **Especial**: Círculos de hongos
+💰 **Tesoro**: Nada
+⚠️  **Peligro**: Fácil (Círculo de hongos que causa sueño.)
+🔍 **Pista/Misterio**: Reflejo en el agua que no coincide con la realidad
+
+--- ÁREA 12 [C] ---
+📖 Cabaña de madera torcida con humo de colores saliendo de la chimenea. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Resina de pino, ⚡ Arcoíris en cascadas)
+🔗 **Conexiones**:
+   → Área 13 (Sendero principal, conexión obvia)
+   → Área 2 (Rastro poco definido)
+   → Área 6 (Camino de animales, Cruza zona peligrosa)
+🎨 **Atrezo**: Máscara ritual con plumas y piedras., Varita de sauce que todavía conserva magia.
+💰 **Tesoro**: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+🔍 **Pista/Misterio**: Flores que crecen formando un mensaje
+
+--- ÁREA 13 [C] ---
+📖 Jardín de hierbas mágicas con plantas que se mueven solas. [Ambientación: Viviente] (🔊 Respiración del bosque, 👃 Flores nocturnas, ⚡ Flores que se abren al paso)
+🔗 **Conexiones**:
+   → Área 14 (Sendero principal, conexión obvia)
+   → Área 8 (Rastro poco definido)
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Grande (Espejo de escudriñamiento, conjunto completo de pociones)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+--- ÁREA 14 [C] ---
+📖 Jardín de hierbas mágicas con plantas que se mueven solas. [Ambientación: Luminoso] (🔊 Crujido de ramas, 👃 Resina de pino, ⚡ Polen dorado flotando)
+🔗 **Conexiones**:
+   → Área 15 (Sendero principal, conexión obvia)
+   → Área 6 (Sendero lateral, Caminata Larga)
+   → Área 11 (Puente natural oculto [SECRETO])
+🎨 **Atrezo**: Nada destacable (solo vegetación normal).
+💰 **Tesoro**: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+⚠️  **Peligro**: Común (Planta que escupe líquido paralizante.)
+
+--- ÁREA 15 [C] ---
+📖 Cabaña de madera torcida con humo de colores saliendo de la chimenea. [Ambientación: Oscuro] (🔊 Crujido de ramas secas, 👃 Carroña, ⚡ Frío repentino)
+🔗 **Conexiones**:
+   → Área 11 (Atajo entre árboles, Cruza zona peligrosa)
+   → Área 5 (Camino de animales, Caminata Larga)
+🎨 **Atrezo**: Espejo que habla pero solo dice mentiras.
+💰 **Tesoro**: Grande (Espejo de escudriñamiento, conjunto completo de pociones)
+⚠️  **Peligro**: Nada (Ninguna. Zona tranquila del bosque.)
+
+=================================================================
+📋 RESUMEN PARA EL DIRECTOR DE JUEGO
+=================================================================
+• Total áreas: 15
+• Distribución tamaños: Claro grande: 2, Zona arbolada densa: 7, Claro mediano: 6
+• Áreas con tesoro: 10
+• Áreas con peligro: 12
+• Conexiones secretas: 6
+  Área 1 → 4 (Pasaje entre arbustos [SECRETO])
+  Área 5 → 2 (Túnel de raíces [SECRETO])
+  Área 6 → 12 (Puente natural oculto [SECRETO])
+  Área 7 → 3 (Pasaje entre arbustos [SECRETO])
+  Área 10 → 4 (Túnel de raíces [SECRETO])
+  Área 14 → 11 (Puente natural oculto [SECRETO])
+
+🎯 PUNTOS DE INTERÉS SUGERIDOS:
+  • Área 3: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+  • Área 11: **Especial**: Círculos de hongos
+  • Área 12: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+  • Área 14: Único (Varita de poder, libro de magia ancestral, cristal de visión)
+
+🎭 IDEAS DE ENCUENTROS PARA Laberinto de Brujas:
+  • Brujas ancianas
+  • Aprendices descarriados
+  • Gatos familiares gigantes
+  • Gólems vegetales
